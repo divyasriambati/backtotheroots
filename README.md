@@ -1,2 +1,2 @@
 # backtotheroots
-This is the BTTR Project
+This is the BTTR (BAck to the Roots) Project
