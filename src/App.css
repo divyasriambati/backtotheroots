@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Regular";   /*Can be any text*/
+  src: local("Montserrat-Regular"),
+    url("./font/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";   /*Can be any text*/
+  src: local("Montserrat-Medium"),
+    url("./font/Montserrat-Medium.ttf") format("truetype");
+}

@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import './fonts/Montserrat-Regular.ttf';
+import './font/Montserrat-Medium.ttf';
+
 function App() {
   return (
     <div className="App">
