@@ -5,3 +5,10 @@
     justify-content: center;
     align-items: center;
 }
+.nav-row-container{
+    display:flex;
+    flex-direction: row;
+}
+.nav-column1{
+    color: white;
+}
