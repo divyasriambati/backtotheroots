@@ -1,7 +1,7 @@
 import React from 'react'
 import footer_icon from '../../assets/footer_icon.png'
-import contact_icon from '../../assets/contact_icon.png'
-import mail_icon from '../../assets/mail_icon.png'
+import contact_icon from '../../assets/phone_icon.png'
+import mail_icon from '../../assets/email_icon.png'
 import './Footer.css'
 
 export default function Footer() {
