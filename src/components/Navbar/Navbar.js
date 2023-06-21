@@ -1,10 +1,10 @@
 import React from 'react';
 import './Navbar.css';
+
 import facebook from '../../assets/facebook.png';
 import instagram from '../../assets/instagram.png';
 import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.png';
-
 
 function Navbar(props) {
     return (
@@ -21,7 +21,7 @@ function Navbar(props) {
                 </div>
             </div>
         </div>
-    );
+);
 }
 
 export default Navbar;
