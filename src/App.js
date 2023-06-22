@@ -18,7 +18,6 @@ function App() {
     <Routes>
 
         {/* <Route exact path="/" element={<Home/>}/> */}
-        <Route exact path="/" element={<Mission/>} />
         {/* <Route exact path="/Navbar" element={<Navbar/>}/> */}
 
         {/* <Route exact path="/Home" element={<Home/>}/>
