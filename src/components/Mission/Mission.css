@@ -1,4 +1,116 @@
-.container {
-    font-family: "Bold"; 
-    font-size: large;
-  }
+.missionPageSection1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.missionpageBg{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+}
+.missionPageSection1Content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.missionPageSection1Heading{
+    font-size: 40px;
+    font-family: Bold;
+    margin-bottom: 15px;
+}
+.bttrVision{
+    font-size: 18px;
+    font-family: Regular;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+.missionPageBtn{
+    border: none;
+    background-color: #fff;
+    color: #316412;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "SemiBold";
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    color: #316412;
+    font-family: Medium;
+}
+.missionPageSection2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10%;
+}
+.missionPageHeading{
+    font-size: 25px;
+    font-family: Bold;
+    margin-bottom: 15px;
+    color: #316412;
+}
+.missionPageContent{
+    font-size: 16px;
+    font-family: Regular;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+.missionPageSection3{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10%;
+}
+
+.missionPageSection4{
+    width: 80%;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10%;
+}
+.missionPageSection5{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10%;
+}
+.missionPageCard{
+    background-color: #efefef;
+    border-radius: 20px;
+    width: 80%;
+    z-index: 2;
+    box-shadow: 5px 8px 10px rgb(233, 231, 231);
+    margin: 15px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardImage{
+    width: 40%;
+}
+.cardContent{
+    font-size: 14px;
+    font-family: Regular;
+    margin-bottom: 15px;
+    line-height: 28px;
+    width: 60%;
+}
+.cardHeader{
+    font-size: 15px;
+    font-family: SemiBold;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+.cardAlignment{
+    display: flex;
+    justify-content: right;
+}
