@@ -1,0 +1,53 @@
+.Carousel_section{
+    background-image:url(../../../assets/missionpageBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+    width: 100%;
+    color: #fff;
+}
+.Carousel_components{
+    width:53%;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 23vw;
+}
+.Carousel_title {
+    font-size: 40px;
+    font-family: Bold;
+    margin-bottom: 15px;
+}
+.Carousel_description {
+    font-size: 18px;
+    font-family: Regular;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+.Carousel_button {
+    border: none;
+    background-color: #fff;
+    color: #316412;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "SemiBold";
+    border-radius: 10px;
+}
+.Carousel_link {
+    text-decoration: none;
+    color: #316412;
+    font-family: Medium;
+}
+.slick-dots li  button::before {
+    top: -30px;
+}
+@media screen and (max-width: 425px){
+    .Carousel_section{
+        height: 70vh;
+    }
+    .Carousel_components{
+        margin-top: 5vh;
+        width:70%;
+        margin-left:15vw ;
+    }
+}

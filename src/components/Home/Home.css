@@ -1,0 +1,82 @@
+
+.home_section{
+    margin:10px auto;
+    font-family: Regular;
+}
+.home_section_container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card_collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.home_card{
+    background-color: #F5F5F5;
+    border : 1px solid #DEDEDE;
+    border-radius: 10px ;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.home_card_img{
+    width: 240px;
+    height: 180px;
+}
+.home_card_title{
+    font-family: Regular;
+}
+.home_supporters{
+    background-color: #E5E5E5;
+}
+.container_title{
+    font-family: Bold;
+    font-size: 32px;
+}
+
+.supporter_card{
+    background-color: #FEFEFE;
+    border: 1px solid #CCC9C9;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+.supporter_card_img{
+    width: 100px;
+    height: 100px;
+}
+.supporter_card_title{
+    font-family: Medium;
+}
+.supporter_card_description{
+    font-family:Regular
+}
+.vision_collection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.vision_card{
+    width: 290px;
+    height: 70px;
+    margin: 20px;
+    border: 1px solid #45841F;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: Medium;
+}
+.vision_card_description{
+    margin: 20px 10px;
+}
