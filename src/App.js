@@ -1,36 +1,35 @@
 
 import './App.css';
-
-
-import Home from './components/Home/Home';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
-
+import About from './components/About/About';
+import Gallery from './components/Gallery/Gallery';
+import Collabrations from './components/Collabrations/Collabrations'
+import Contact from './components/Contact/Contact'
+import Accomplishments from './components/Accomplishments/Accomplishments'
 import Mission from './components/Mission/Mission';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    // <BrowserRouter>
-    // <Routes>
-
-    //     <Route exact path="/" element={<Home/>}/>
-    //     {/* <Route exact path="/Navbar" element={<Navbar/>}/> */}
-
-    //     {/* <Route exact path="/Home" element={<Home/>}/>
-    //     <Route exact path="/About" element={<About/>}/>
-    //     <Route exact path="/Mission" element={<Mission/>}/>
-    //     <Route exact path="/Gallery" element={<Gallery/>}/>
-    //     <Route exact path="/Collabrations" element={<Collabrations/>}/>
-    //     <Route exact path="/Accomplishments" element={<Accomplishments/>}/>   */}
-    // </Routes>
-    // </BrowserRouter>
-    <div>
-      <Navbar></Navbar>
-    </div>
+    <BrowserRouter>
+    <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/Footer" element={<Footer/>} />
+        <Route exact path="/Navbar" element={<Navbar/>}/>
+        <Route exact path="/About" element={<About/>}/>
+        <Route exact path="/Mission" element={<Mission/>}/>
+        <Route exact path="/Gallery" element={<Gallery/>}/>
+        <Route exact path="/Collabrations" element={<Collabrations/>}/>
+        <Route exact path="/Accomplishments" element={<Accomplishments/>}/>  
+        <Route exact path="/Contact" element={<Contact/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-function Accomplishments(props) {
-    return (
-        <div>
-            
-        </div>
-    );
+export default function Accomplishments() {
+  return (
+    <div>Accomplishments</div>
+  )
 }
-
-export default Accomplishments;
