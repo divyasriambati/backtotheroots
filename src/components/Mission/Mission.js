@@ -1,9 +1,10 @@
 import React from 'react';
+import './Mission.css'
 
 function Mission(props) {
     return (
-        <div>
-            
+        <div className='container'> 
+            hello
         </div>
     );
 }

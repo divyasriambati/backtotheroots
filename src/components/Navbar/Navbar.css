@@ -1,15 +1,286 @@
 
 .nav-main-container{
-    background-color: #316412;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .nav-row-container{
+    background-color: #316412;
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+   
 }
+.nav-row-sub-container{
+  display: flex;
+  flex-direction: row;
+
+  width: 90%;
+}
+
 .nav-column1{
     color: white;
+    font-family:"Regular";
+    font-size: large;
+    width: 80%;
+    margin-left:10px;
+}
+.nav-column2{
+    display:flex;
+    align-items: center;
+    width: 20%;
+    flex-direction: row;
+    /* column-gap: 30%; */
+    justify-content: space-around;
+    
+    
+}
+@media screen and  (max-width: 600px) {
+  .nav-row-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  @media screen and (min-width: 1350) and (max-width:600){
+    .nav-row-container{
+      align-items: center;
+    }
+
+  }
+  .nav-column1{
+    text-align: center;
+    width: 100%;
+  }
+  .nav-column2{
+    column-gap:10%;
+    justify-content: center;  
+  }
+}
+/* Second container starts here*/
+.sub-nav-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.nav-icon-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+/* background-color: black; */
+
+}
+@media screen and  (min-width: 1350px) {
+  
+}
+
+.nav-icon-column2{
+    display: flex;
+    flex-direction: column;
+}
+.menubar{
+    position: relative;
+}
+.navbar-navs{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 60%;  
+    color: #000;
+    font-size: 18px;
+font-family:"Regular";
+}
+.bttr-text{
+    color: #316412;
+font-size: 28px;
+font-family: Montserrat;
+font-weight: 700;
+}
+.adopt-a-village-text{
+color: #D6A21D;
+font-size: 16px;
+font-family: "Regular";
+font-weight: 700;
+margin-top: 10px;
+}
+.donate-button{
+border-radius: 10px;
+background: #316412;
+color:white;
+width: 95px;
+height: 37px;
+font-family: "Regular";
+font-size: large;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .menubar {
+      display: block;
+    }
+    .navbar-navs{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  @media screen and (min-width: 1350px) {
+    .menubar {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1350px) {
+    .navbar-navs {
+      display: none;
+    }
+  }
+  .about-image-container{
+    background-image: url("../../assets/abouBg.svg");
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: "Regular";
+    align-items: center;
+  }
+  .text-container{
+    display:flex;
+    flex-direction: column;
+    padding: 3% 40% 2% 8%;
+  }
+  .about-text{
+    color: white;
+    font-family: "Bold";
+    color: #FFF; 
+    font-size: 32px;
+ font-weight: 700;
+  }
+  .para{
+    color:black;
+    text-align: justify;
+    font-family: "Regular";
+    padding: 3% 0% 3% 0%;
+    font-size: 20px;
+    color: white;
+  }
+  .contact-button{
+    border-radius: 10px;
+    border: none;
+background:white ;
+color:#316412;
+width: 120px;
+height: 37px;
+font-family: "Bold";
+font-size: large;
+  }
+  .section2-container{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 10% 0% 7%;
+   
+  }
+  .section2-image{
+    border-radius: 20px;
+  background: #E9E9E9;
+  width: 277px;
+  height: 240px;
+  flex-shrink: 0;
+  border: none;
+  }
+  .section2-text-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .Projector-Director-text{
+    font-family: "Bold";
+    padding: 0% 10% 3% 10%;
+    font-size: 24px;
+  }
+  .section2-para{
+    padding: 0% 10% 10% 10%;
+    font-family: "Regular";
+    text-align: justify;
+    font-size: 20px;
+
+  }
+  .section3-container{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10% 0% 8%;
+  }
+  .section3-text-container{
+    padding: 0% 15% 0% 0%;
+  }
+  .section3-backtotheroots-text{
+    color: #000;
+font-size: 24px;
+font-family:"Bold";
+padding: 0% 0% 3% 0%;
+  }
+  .section3-para1{
+    color: #000;
+    font-family: "Regular";
+    text-align: justify;
+    font-size: 20px;
+    padding: 0% 0% 3% 0%;
+  }
+  .section3-para2{
+    color: #000;
+    font-family: "Regular";
+    text-align: justify;
+    font-size: 20px;
+  }
+  .section3-image{
+width: 448px;
+height: 350px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #E9E9E9;
+border: none;
+  }
+  .section4-container{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0% 0% 0%;
+    padding: 0% 0% 0% 8% ;
+  }
+.section4-image-container{
+  padding: 3% 0% 0% 0%;
+}
+  .section4-image{
+    padding: 10% 0% 0% 0%;
+width: 305px;
+height: 288px;
+border-radius: 20px;
+background: #FFF;
+border: none;
+  }
+.section4-text-container{
+  display: flex;
+  flex-direction: column;
+}
+.section4-para{
+  text-align: justify;
+  font-family: "Regular";
+  font-size: 20px;
+  padding: 8% 20% 0% 5% ;
+}
+.section4-accomplishments-button{
+  padding: 4% 0% 0% 5%;
+}
+.our-Accomplishments{
+  width: 260px;
+height: 60px;
+color: white;
+flex-shrink: 0;
+border-radius: 10px;
+background: #45841F;
+font-size: 20px;
+font-family: "Regular";
+border: none;
 }
