@@ -1,0 +1,119 @@
+.contactPageImg{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+}
+
+.contactFormContainerText{
+    background-color: white;
+    width: auto;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 2;
+    box-shadow: 5px 5px 5px rgb(65, 64, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 30%;
+}
+/* .contactForm{
+    width: 100%;
+} */
+.contactPageHeading{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Bold";
+    color: #316412;
+    margin: 15px 10px;
+}
+.registerFormlabel{
+    color:#316412 ;
+    font-size: 14px;
+    font-family: Medium;
+    display: flex;
+    flex-direction: column;
+}
+.registerFormlabel input{
+    border:1px solid #316412;
+    margin: 10px 0px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 10px;
+}
+.submitBtn{
+    border: none;
+    background-color: #316412;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Bold";
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+.contactFormUsername{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    font-family: "Regular";
+    margin-top: -5px;
+}
+
+  button{
+    cursor: pointer;
+  }
+
+  .contactPageSection2{
+    width:80%;
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+  }
+  .contactPageSection2Image{
+    width: 40%;
+  }
+  .contactPageSection2Content{
+    width: auto;
+  }
+  .contactPageSection2Heading{
+    font-size: 25px;
+    color: #316412;
+    font-family: Bold;
+    margin-bottom: 15px;
+  }
+  .contactPageContent{
+    font-size: 15px;
+    font-family: Regular;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  .contactPageSubHeading{
+    font-size: 16px;
+    color: black;
+    font-family: SemiBold;
+    margin-bottom: 15px;
+  }
+  .contactPageAddressContent{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: Regular;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .country{
+    margin-right: 20px;
+  }
