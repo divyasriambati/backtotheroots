@@ -1,0 +1,98 @@
+.collabPageSection1{
+    width: 100%;
+}
+.collabPageBg{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+}
+.collabPageHeading{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-family: Bold;
+}
+.collabPageSection2{
+    width: 80%;
+    padding: 2% 10%;
+}
+.collabPageSectionHeading{
+    font-size: 25px;
+    font-family: Bold;
+    margin-bottom: 15px;
+    color: #316412;
+    text-align: center;
+    margin: 10px;
+}
+.collagePageSectionPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.collabPageSection2Content{
+    width: 70%;
+    font-size: 16px;
+    font-family: Regular;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+.readMoreBtn{
+    border: none;
+    background-color: #316412;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Bold";
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.Link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Medium;
+}
+.collabPageSection2Image{
+    width: 30%;
+}
+.collabPageSection3{
+    width: 80%;
+    padding: 2% 10%;
+    background-color: #E5E5E5;
+}
+.collabPageSection4{
+    width: 80%;
+    padding: 2% 10%;
+}
+.collabPageSection5{
+    width: 80%;
+    padding: 2% 10%;
+}
+.collabPageCardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.collabPageCard{
+    background-color: white;
+    border: 1px solid #316412;
+    border-radius: 10px;
+    padding: 3%;
+    /* width: 20%; */
+    margin-bottom: 20px;
+}
+.collabLogo{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
