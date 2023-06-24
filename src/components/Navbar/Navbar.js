@@ -12,6 +12,11 @@ import backgroundimage from '../../assets/homepg.png';
 
 function Navbar(props) {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const [showNavbar, setShowNav] = useState(false)
+    const handleShowNavbar = () => {
+      setShowNav(!showNavbar)
+    }
+
     return (
         <div className='nav-main-container'>
             <div className='nav-row-container'>
@@ -27,8 +32,11 @@ function Navbar(props) {
                 </div>
                 </div>
             </div>
-            <div className='sub-nav-container'>
-                <div className='nav-icon-container'>
+
+            <nav className="navbar">
+                <div className="container">
+                  <div className="logo">
+                    <div className='nav-icon-container'>
                     <div className='nav-icon-column1'>
                          <img src={icon} ></img>
                     </div>
@@ -41,19 +49,40 @@ function Navbar(props) {
                         </div>
                     </div>
                 </div>
-                <div className={isNavExpanded ? "navbarnavs expanded":"navbar-navs"  }>
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Mission</p>
-                    <p>Gallery</p>
-                    <p>Collabrations</p>
-                    <p>Accomplishments</p>
-                    <p>Contact</p>
-                    {/* <p>Donate</p> */}
-                    <button className='donate-button'>Donate</button>
-                </div> 
-                <img className='menubar' src={menubar}onClick={() => {setIsNavExpanded(!isNavExpanded);}} style={{width:"3%",fill:"white"}}></img>
-             </div>
+                  </div>
+                  <div className="menu-icon" onClick={handleShowNavbar}>
+                    <img  src={menubar} className="menuicon"></img>
+                  </div>
+                  <div className={`nav-elements  ${showNavbar && 'active'}`}>
+                    <ul>
+                      <li>
+                        <NavLink to="/">Home</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/about">About</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/mission">Mission</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/Gallery">Gallery</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/Collabrations">Collabrations</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/Accomplishments">Accomplishments</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/Contact">Contact</NavLink>
+                      </li>
+                      <li>
+                        <button className='donate-button'>Donate</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+             </nav>
         </div>
     );
 }

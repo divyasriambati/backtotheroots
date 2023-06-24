@@ -1,6 +1,7 @@
 
 .home_section{
-    margin:10px auto;
+    margin:0px;
+    overflow: hidden;
     font-family: Regular;
 }
 .home_section_container {
