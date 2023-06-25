@@ -15,9 +15,15 @@
     font-family: Medium;
     font-size: 18px;
 }
-.Gallery_tab_title.active {
+
+.Gallery_tab_title.active  {
     border: 2px solid #316412;
     color: #316412;
+}
+.Gallery_tab_title:hover {
+    color: white;
+    background: #316412;
+    transition: .5s ease all;
 }
 
 .Gallery_tab_content{

@@ -97,37 +97,37 @@ export default function Accomplishments() {
                      <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
                      <div className='slider_card_title'>Temples 1 </div>
                      <div className='slider_card_description'>Build temples in villages</div>
-                     <button className='slider_button'>Donate Now</button>
+                     <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
                      <div className='slider_card_title'>Temples 2</div>
                      <div className='slider_card_description'>Build temples in villages</div>
-                     <button className='slider_button'>Donate Now</button>
+                     <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
                      <div className='slider_card_title'>Temples 3</div>
                      <div className='slider_card_description'>Build temples in villages</div>
-                     <button className='slider_button'>Donate Now</button>
+                     <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
                      <div className='slider_card_title'>Temples 4</div>
                      <div className='slider_card_description'>Build temples in villages</div>
-                     <button className='slider_button'>Donate Now</button>
+                     <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
                      <div className='slider_card_title'>Temples 5</div>
                      <div className='slider_card_description'>Build temples in villages</div>
-                     <button className='slider_button'>Donate Now</button>
+                     <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
                      <div className='slider_card_title'>Temples 6</div>
                      <div className='slider_card_description'>Build temples in villages</div>
-                     <button className='slider_button'>Donate Now</button>
+                     <button className='slider_button'>Read More</button>
                 </div>
             </Slider>
           </div>

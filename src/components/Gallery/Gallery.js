@@ -2,11 +2,12 @@ import { useState,react } from "react";
 
 import './Gallery.css'
 
-import image from '../../assets/homecard1.png'
-import image1 from '../../assets/homecard1.png'
-import image2 from '../../assets/homecard1.png'
-import image3 from '../../assets/homecard1.png'
-import image4 from '../../assets/homecard1.png'
+import image from '../../assets/dummyImage.png'
+import image1 from '../../assets/dummyImage.png'
+import image2 from '../../assets/dummyImage.png'
+import image3 from '../../assets/dummyImage.png'
+import image4 from '../../assets/dummyImage.png'
+import missionBg from '../../assets/missionpageBg.svg'
 
 export default function Gallery() {
     const tab1 = [image]
@@ -15,8 +16,8 @@ export default function Gallery() {
     const tab4 = [image,image2,image3,image4]
     const tab5 = [image,image1,image2,image3,image4]
     const [tabData, setTabData] = useState({
-      title: "Accomplishment",
-      images: tab5
+      title: "Education",
+      images: tab1
     });
     const tabsData = [
       {
@@ -41,12 +42,17 @@ export default function Gallery() {
       },
       {
         tabnumbers: 5,
-        title: "Accomplishment",
+        title: "Collabrations",
         images: tab5
       }
     ];
     return (
       <div className="Gallery_section">
+        {/* Section 1 */}
+      <div className='collabPageSection1'>
+        <img src={missionBg} className='collabPageBg' />
+        <div className='collabPageHeading'>Our Gallery</div>
+      </div>
         <div  className="Gallery_tab_headings">
           {tabsData.map((Tab, id) => {
               const isActive = Tab.title === tabData.title;

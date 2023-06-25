@@ -5,9 +5,10 @@ import './Home.css'
 import Carousel from './carousel/carousel'
 
 
-import homecard1 from '../../assets/homecard1.png'
-import homecard2 from '../../assets/homecard2.png'
-import homecard3 from '../../assets/homecard3.png'
+import mission from '../../assets/homecard1.png'
+import  homecard1 from '../../assets/dummyImage.png'
+import homecard2 from '../../assets/dummyImage.png'
+import homecard3 from '../../assets/dummyImage.png'
 import supporter1 from '../../assets/supporter1.png'
 import supporter2 from '../../assets/supporter2.png'
 import supporter3 from '../../assets/supporter3.png'
@@ -87,7 +88,7 @@ export default function Home() {
                         <li>Forging mutually beneficial alliances with US-based institutions to accelerate impact</li>
                         </div>
                         <div className='mission_section2'>
-                            <img className='mission_img' src={homecard1} alt="mission"></img>
+                            <img className='mission_img' src={mission} alt="mission"></img>
                         </div>
                     </div>
                 </div>
