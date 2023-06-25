@@ -1,6 +1,5 @@
 
 import './App.css';
-
 import {
   BrowserRouter,
   Routes,
@@ -19,17 +18,21 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/Footer" element={<Footer/>} />
-        <Route exact path="/Navbar" element={<Navbar/>}/>
-        <Route exact path="/About" element={<About/>}/>
-        <Route exact path="/Mission" element={<Mission/>}/>
-        <Route exact path="/Gallery" element={<Gallery/>}/>
-        <Route exact path="/Collabrations" element={<Collabrations/>}/>
-        <Route exact path="/Accomplishments" element={<Accomplishments/>}/>  
-        <Route exact path="/Contact" element={<Contact/>}/>
-    </Routes>
+      <div>
+        <Navbar/>
+        <Routes>
+            <Route exact path="/" element={<Home/>}/>
+            <Route exact path="/Footer" element={<Footer/>} />
+            <Route exact path="/Navbar" element={<Navbar/>}/>
+            <Route exact path="/About" element={<About/>}/>
+            <Route exact path="/Mission" element={<Mission/>}/>
+            <Route exact path="/Gallery" element={<Gallery/>}/>
+            <Route exact path="/Collabrations" element={<Collabrations/>}/>
+            <Route exact path="/Accomplishments" element={<Accomplishments/>}/>  
+            <Route exact path="/Contact" element={<Contact/>}/> 
+        </Routes>
+        <Footer/>
+      </div>
     </BrowserRouter>
   );
 }

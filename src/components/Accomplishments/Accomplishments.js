@@ -1,9 +1,37 @@
 import React from 'react';
+import Slider from 'react-slick'
 import './Accomplishments.css';
 import missionBg from '../../assets/missionpageBg.svg'
+import homecard2 from '../../assets/homecard2.png'
 import { Outlet, Link } from "react-router-dom";
 
 export default function Accomplishments() {
+    
+    const sliderSettings = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      initialSlide: 1,
+       responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 780,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+      ]
+    };
+    
   return (
     <div>
       {/* Section 1 */}
@@ -54,7 +82,44 @@ export default function Accomplishments() {
         <div className='accPageSectionContent'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore 
           magna aliqua. Ut enim ad minim</div>
           <div>
-            cards Slider
+            <Slider {...sliderSettings}>
+                <div className='slider_card' >
+                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Temples 1 </div>
+                     <div className='slider_card_description'>Build temples in villages</div>
+                     <button className='slider_button'>Donate Now</button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Temples 2</div>
+                     <div className='slider_card_description'>Build temples in villages</div>
+                     <button className='slider_button'>Donate Now</button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Temples 3</div>
+                     <div className='slider_card_description'>Build temples in villages</div>
+                     <button className='slider_button'>Donate Now</button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Temples 4</div>
+                     <div className='slider_card_description'>Build temples in villages</div>
+                     <button className='slider_button'>Donate Now</button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Temples 5</div>
+                     <div className='slider_card_description'>Build temples in villages</div>
+                     <button className='slider_button'>Donate Now</button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Temples 6</div>
+                     <div className='slider_card_description'>Build temples in villages</div>
+                     <button className='slider_button'>Donate Now</button>
+                </div>
+            </Slider>
           </div>
     </div>
 
