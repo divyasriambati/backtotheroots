@@ -108,7 +108,7 @@
 
 .navbar {
   height: 100px;
-  background-color: #fef7e5;
+  background-color: #ffffff;
   position: relative;
   width: 100%;
 }
@@ -178,9 +178,10 @@
     z-index: 2;
     right: 0;
     top: 90px;
-    background-color: #fef7e5;
+    background-color: #ffffff;
     width: 0px;
     height: calc(100vh - 60px);
+    box-shadow: 0 8px 8px  rgba(0, 0, 0, 0.6);
     transition: all 0.3s ease-in;
     overflow: hidden;
   }
