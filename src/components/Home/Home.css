@@ -1,13 +1,25 @@
 
 .home_section{
-    margin:10px auto;
+    margin:0px;
+    overflow: hidden;
     font-family: Regular;
 }
 .home_section_container {
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 30px 0px
+}
+.home_section_container_title{
+    color: #316412;
+    font-size: 28px;
+    margin-top:5px;
+    font-family:bold;
+}
+.home_section_container_description {
+    font-family: Regular;
+    margin: 5px auto;
+    width: 70vw;
+    font-size: 18px;
 }
 .card_collection {
     display: flex;
@@ -19,20 +31,38 @@
 }
 .home_card{
     background-color: #F5F5F5;
-    border : 1px solid #DEDEDE;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px ;
     width: 250px;
-    height: 200px;
-    padding: 10px;
+    height: 280px;
+    padding: 20px;
     margin: 10px;
-    text-align: center;
 }
 .home_card_img{
-    width: 240px;
+    width: 220px;
     height: 180px;
 }
 .home_card_title{
-    font-family: Regular;
+    font-family: Bold;
+    color:#45841F;
+    font-size:18px;
+    margin-top: 5px;
+}
+.home_card_description {
+    font-family: Medium;
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.home_button {
+    border: none;
+    background-color: #316412;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "SemiBold";
+    border-radius: 10px;
 }
 .home_supporters{
     background-color: #E5E5E5;
@@ -79,4 +109,82 @@
 }
 .vision_card_description{
     margin: 20px 10px;
+}
+.contact_us{
+    width:80vw;
+    margin: 20px auto;
+}
+.joinus_text{
+    color: black;
+    font-family: Bold;
+    font-size: 28px;
+    width: 80vw;
+    margin: 10px auto;
+}
+.collabration_card{
+    border: 2px solid #45841F;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    padding: 50px auto;
+    text-align: center;
+    margin: 10px;
+}
+.collabration_img{
+    width:180px;
+    height: 80px;
+    margin-top: 10px;
+    /* border: 1px solid #45841F; */
+}
+.collabration_content{
+    width:85%;
+    text-align: center;
+    margin:10px auto
+}
+
+.mission_container{
+    width: 80%;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+.mission_section1{
+    text-align:left;
+    line-height: 30px;
+}
+.mission_img{
+    width: 250px;
+    height:auto;
+}
+.home_achievements{
+    background-image: url(../../assets/home_achivements.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.achievement_card{
+    width:220px;
+    height: 175px;
+    border:2px solid white;
+    margin:10px;
+    text-align:center;
+    color:#fff;
+    border-radius: 5px;
+}
+.achievement_card_number{
+    font-family: Bold;
+    font-size: 24px;
+    padding: auto;
+    line-height: 50px;
+}
+.achievement_card_description{
+    font-family:Medium;
+    font-size: 18px;
+}
+.achievement_card_content{
+    width: 90%;
+    margin: 40px auto;
+
 }

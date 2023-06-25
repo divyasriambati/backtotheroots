@@ -1,0 +1,84 @@
+.About_Section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family: "Regular";
+}
+.About{
+    background-image: url("../../assets/abouBg.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.About_content{
+    width: 60%;
+    margin: 5vh 10%;
+}
+.About_title{
+    font-family: Bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+.About_description{
+    font-size: 20px;
+    line-height:24px;
+    text-align: justify;
+}
+.Contact_button{
+    border: none;
+    background-color: #fff;
+    color: #316412;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "SemiBold";
+    border-radius: 10px;
+}
+.container_bg{
+    background-color:#E5E5E5;
+    width: 100%;
+}
+.About_flex_container{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.BTTR_Project_director_image{
+    height:250px;
+    width: 250px;
+}
+.BTTR_Project_director_title{
+    font-family: Bold;
+    font-size: 24px;
+}
+.BTTR_Project_director_content{
+    width:60%
+}
+.BTTR_Project_director_description{
+    font-size:18px;
+    line-height: 27px;
+    text-align: justify;
+}
+.our_Accomplishments {
+    color: white;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #45841F;
+    font-size: 20px;
+    font-family: "Regular";
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .About_content{
+        width: 80%;
+    }
+    
+}
