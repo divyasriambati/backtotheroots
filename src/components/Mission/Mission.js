@@ -2,6 +2,10 @@ import React from 'react';
 import './Mission.css';
 import { Outlet, Link } from "react-router-dom";
 import missionBg from '../../assets/missionpageBg.svg'
+import economic_upliftment from '../../assets/Economic_upliftment.svg'
+import culture_familyValues from '../../assets/culture_family-values.svg'
+import health_hygeine from '../../assets/Health_hygiene.svg'
+import dummyImg from '../../assets/dummyImage.png'
 
 function Mission(props) {
     return (
@@ -20,7 +24,7 @@ function Mission(props) {
                 </div>
             </div>
         {/* section2 */}
-            <div className='missionPageSection2'>
+            {/* <div className='missionPageSection2'>
                 <div className='missionPageHeading'>Our Mission</div>
                 <div className='missionPageContent'>To invest in capacity building and technology to strengthen India’s rural economy by
                     <li>Restoring riverine ecosystems</li>
@@ -29,7 +33,7 @@ function Mission(props) {
                     <li>Educating rural leaders in good governance</li>
                     <li>Forging mutually beneficial alliances with US-based institutions to accelerate impact</li>
                 </div>
-            </div>    
+            </div>     */}
         {/* section 3 */}
             <div className='missionPageSection3'>
             <div className='missionPageHeading'>Key Facts</div>
@@ -60,7 +64,7 @@ function Mission(props) {
             <div className='missionPageSection5'>
                 <div className='missionPageHeading'>Solutions Through Back to the Roots</div>
                 <div className='missionPageCard'>
-                    <div className='cardImage'>Image</div>
+                    <div className='cardImage' ><img src={economic_upliftment} className='missionPageImages' /></div>
                     <div className='cardContent'>
                         <div className='cardHeader'>Economic Upliftment:</div>
                         <li>
@@ -83,7 +87,7 @@ function Mission(props) {
                 </div>
                 <div className='cardAlignment'>
                     <div className='missionPageCard'>
-                        <div className='cardImage'>Image</div>
+                        <div className='cardImage' ><img src={culture_familyValues} className='missionPageImages' /></div>
                         <div className='cardContent'>
                             <div className='cardHeader'>Culture, Family Values, Community:</div>
                             <li>
@@ -110,9 +114,9 @@ function Mission(props) {
                     </div>
                 </div>
                 <div className='missionPageCard'>
-                    <div className='cardImage'>Image</div>
+                    <div className='cardImage'><img src={health_hygeine} className='missionPageImages' /></div>
                     <div className='cardContent'>
-                        <div className='cardHeader'>Health and Hygiene:</div>
+                        <div className='cardHeader' >Health and Hygiene:</div>
                         <li>
                             <b>Wellness Programs:</b> We organize Yoga and Meditation sessions, 
                             along with community-building courses for different groups through the YLTP.
@@ -133,7 +137,7 @@ function Mission(props) {
                 </div>
                 <div className='cardAlignment'>
                     <div className='missionPageCard'>
-                        <div className='cardImage'>Image</div>
+                        <div className='cardImage'><img src={dummyImg} className='missionPageImages' /></div>
                         <div className='cardContent'>
                             <div className='cardHeader'>Model Villages:</div>
                             <li>

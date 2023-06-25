@@ -5,6 +5,16 @@ import missionBg from '../../assets/missionpageBg.svg'
 import homecard2 from '../../assets/homecard2.png'
 import { Outlet, Link } from "react-router-dom";
 
+import archika_training from '../../assets/archika_training.png'
+import balavikasaKendra from '../../assets/balavikasaKendra.png'
+import dharmaPracharam from '../../assets/d2d-dharma-pracharam.png'
+import idolDonation from '../../assets/idol_donation.png'
+import organicFarming from '../../assets/organic_farming.png'
+import harathi from '../../assets/samohika_harathi.png'
+import templeConstruction from '../../assets/temple_construction.png'
+import YLTPTraining from '../../assets/YLTP_training.png'
+import dummyImg from '../../assets/dummyImage.png'
+
 export default function Accomplishments() {
     
     const sliderSettings = {
@@ -137,11 +147,11 @@ export default function Accomplishments() {
             activities, fostering community unity and progress. The initiative showcases the state's commitment to inclusivity, 
             recognizing the cultural heritage and contributions of underrepresented communities.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={templeConstruction} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>2. Running balaviksa kendras in temples(traditonal and cultural education)</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={balavikasaKendra} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 <b>Title: </b> Nurturing Traditional and Cultural Education/Balaviksa Kendras Enriching Traditional and Cultural Education<br />
                 The establishment of Balaviksa Kendras within traditional temples is a remarkable initiative aimed at preserving 
@@ -162,11 +172,11 @@ export default function Accomplishments() {
               illumination of knowledge. The project aims to deepen individuals' connection with their faith, spirituality, and 
               the temple as a sacred space through regular participation in Samohika Arathi.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={harathi} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>4. Maintaining Demography</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 <b>Title: </b>Maintaining Demographic Equilibrium for Sustainable Communities<br />
                 The "Maintaining Demography" project addresses population decline and demographic imbalances through strategies
@@ -188,11 +198,11 @@ export default function Accomplishments() {
               community, and contribute to the welfare of the temple. Inclusivity and cultural sensitivity are prioritized, 
               respecting the diverse religious practices within the community.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={archika_training} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>6. Door-door campaigning about dharma</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dharmaPracharam} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 <b>Title: </b>Transforming Lives through Dharma Outreach at Homes<br />
                 The project conducts a door-to-door campaign to raise awareness and promote understanding of Dharma within 
@@ -211,7 +221,7 @@ export default function Accomplishments() {
                 The campaign aims to increase knowledge, foster pride, and preserve tribal heritage. It improves cultural 
                 awareness, challenges misconceptions, and promotes acceptance in society.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
     </div>
 
@@ -226,11 +236,11 @@ export default function Accomplishments() {
                 development, equipping the participants with essential skills for success in various areas of life. 
                 They gained confidence and emerged as capable leaders, ready to make a positive impact in their communities.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={YLTPTraining} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>2. Tuition center in newly constructed temples.</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 Tuition centers integrated within newly constructed temples offer additional academic support and a 
                 harmonious learning environment for students. Qualified tutors provide personalized attention, addressing 
@@ -247,11 +257,11 @@ export default function Accomplishments() {
             students, promoting gender equality, and ensuring access to education for all. Its goal is to provide resources for 
             students to complete their degrees, secure job opportunities, and build successful careers.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>4. Training farmers on zero budget natural farming(Organic Farming)</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={organicFarming} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 The Zero Budget Chemical Free Farming Workshops, also known as Rishi Krishi, train and empower farmers in the 
                 practice of organic farming. Through practical training sessions, farmers learn about natural inputs, soil health,
@@ -270,11 +280,11 @@ export default function Accomplishments() {
                 This act of philanthropy inspires compassion and encourages others to make a positive difference in the lives 
                 of those in need.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={idolDonation} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>6. Skills training in collaboration with SSRDP</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 Skills training in collaboration with SSRDP (Sri Sri Rural Development Program) empowers individuals in rural 
                 areas by providing them with essential skills for personal and professional growth. The program focuses on 
@@ -293,7 +303,7 @@ export default function Accomplishments() {
                 and inclusive growth. Education and healthcare are key areas of emphasis to provide access to quality education 
                 and improve overall well-being.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
     </div>
 
@@ -310,11 +320,11 @@ export default function Accomplishments() {
             and provide personalized care based on the principles of Ayurveda, focusing on natural remedies, lifestyle 
             modifications, and preventive measures.    
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>2. Development of a Village Mineral Water Plant:</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
             In an effort to provide clean and safe drinking water to the entire village, a mineral water plant with a capacity 
             of 1,000 liters per hour is set to be constructed in the first half of the year. This initiative aims to ensure that 
@@ -339,11 +349,11 @@ export default function Accomplishments() {
             the combined efforts of various stakeholders, this project has the potential to create a positive impact on water 
             conservation, environmental sustainability, and the overall well-being of the communities involved.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>4. Volunteers Aid Hudhud Cyclone Victims</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
             In the wake of the destructive Hudhud Cyclone, a display of remarkable solidarity and compassion was witnessed as 
             300 dedicated volunteers selflessly rallied together to provide assistance and support to the affected communities. 
@@ -367,11 +377,11 @@ export default function Accomplishments() {
             value-based education. The BTTR team aims to address these areas and transform Astanagurthy into a model village 
             with the support of village leaders and the community.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>6. Improving Educational Standards through 200 Evening Schools</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
             The establishment of 200 evening schools was a significant initiative aimed at improving the educational standards of 
             children from economically disadvantaged backgrounds and instilling the values of Samskara in them. These schools 
@@ -393,11 +403,11 @@ export default function Accomplishments() {
             The positive influence of their education extends beyond themselves, contributing to the progress and well-being of 
             their communities.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>8. Empowering 5000 Individuals through Aawasa Bhajan Sikshana</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
             <div className='accPageContent'>
             The successful accomplishment of Aawasa Bhajan Sikshana for 5000 people represents a significant achievement in 
             promoting spiritual and cultural enrichment. The program provided a residential setting for participants to immerse 
@@ -407,7 +417,7 @@ export default function Accomplishments() {
              of participants and enabling them to share the joy and teachings of bhajan singing with their communities.
             </div>
         </div>
-        <div className='accPageSection4Heading'>8. Embracing Ancestral Faith</div>
+        <div className='accPageSection4Heading'>9. Embracing Ancestral Faith</div>
         <div className='accPageSectionContentContainer'>
             <div className='accPageContent'>
             The organization SSF has implemented a vigorous Ghar Wapasi Programme, resulting in 7,000 individuals returning to 
@@ -418,7 +428,7 @@ export default function Accomplishments() {
             culture, revitalizes traditions, and fosters unity within the community. It is essential to ensure that the programme
             is implemented respectfully and inclusively, with individuals making their decisions freely and without coercion.
             </div>
-            <div className='accPageImage'>Image</div>
+            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
         </div>
     </div>
 
