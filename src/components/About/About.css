@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content:center;
     font-family: "Regular";
+    line-height: 30px;
+    font-size:16px
 }
 .About{
     background-image: url("../../assets/abouBg.svg");
@@ -21,9 +23,9 @@
     line-height: 40px;
 }
 .About_description{
-    font-size: 20px;
     line-height:24px;
     text-align: justify;
+    width: 80%;
 }
 .Contact_button{
     border: none;
@@ -59,7 +61,6 @@
     width:60%
 }
 .BTTR_Project_director_description{
-    font-size:18px;
     line-height: 27px;
     text-align: justify;
 }
@@ -68,7 +69,6 @@
     flex-shrink: 0;
     border-radius: 10px;
     background: #45841F;
-    font-size: 20px;
     font-family: "Regular";
     border: none;
     padding: 15px 30px;
@@ -78,6 +78,9 @@
 
 @media screen and (max-width: 768px) {
     .About_content{
+        width: 90%;
+    }
+    .BTTR_Project_director_content{
         width: 80%;
     }
     

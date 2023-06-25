@@ -33,7 +33,7 @@
     margin: 0px 10px;
 }
 .contact_details{
-    word-wrap:break-all;
+    word-wrap: break-word;
 }
 .contact_buttons{
     display: flex;
@@ -44,7 +44,16 @@
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer_img {
+        width: 300px;
+        height: 250px;
+    }
 
+    .footer_section3 {
+        width: 95%;
+    }
+}
 
 
 @media screen and (max-width: 540px) {
@@ -61,14 +70,9 @@
     .footer_section2{
         width: 95%;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .footer_img {
-            width: 300px;
-            height: 250px;
-        }
-    .footer_section3{
-        width: 95%;
+    .contact_logo{
+        margin-left: 0px;
+        margin-right: 5px;
     }
 }
+

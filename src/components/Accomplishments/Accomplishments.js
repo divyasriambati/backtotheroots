@@ -18,17 +18,17 @@ export default function Accomplishments() {
       initialSlide: 1,
        responsive: [
         {
-          breakpoint: 480,
+        breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 1
           }
         },
         {
           breakpoint: 780,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
           }
-        },
+        }
       ]
     };
     

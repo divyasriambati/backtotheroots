@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css'
-import homecard3 from '../../assets/homecard2.png'
+import BTTR from '../../assets/homecard1.png'
+import BTTR_director from '../../assets/BTTR_director.png'
+import about_accomplishment from '../../assets/about_accomplishment.png'
 
 function About(props) {
     return (
@@ -18,7 +20,7 @@ function About(props) {
                 </div>
             </div>
             <div className='About_flex_container'>
-                <img src={homecard3} alt="Project Director" className="BTTR_Project_director_image"></img>
+                <img src={BTTR_director} alt="Project Director" className="BTTR_Project_director_image"></img>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_title'>
                          Project Director
@@ -48,12 +50,12 @@ function About(props) {
                      aspects of the project.
                     </div>
                 </div>
-                <img src={homecard3} alt="Back to the roots" className="BTTR_Project_director_image"></img>
+                <img src={BTTR} alt="Back to the roots" className="BTTR_Project_director_image"></img>
             </div>
             </div>
              
              <div className='About_flex_container'>
-                <img src={homecard3} alt="Collabrations" className="BTTR_Project_director_image"></img>
+                <img src={about_accomplishment} alt="Collabrations" className="BTTR_Project_director_image"></img>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_description'>
                     Sacramento Projects, presumably a stakeholder in the BTTR project, has decided to adopt villages and aid in their transformation.
