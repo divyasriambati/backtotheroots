@@ -1,9 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-import Footer from '../Footer/Footer'
 import Carousel from './carousel/carousel'
-import Navbar from '../Navbar/Navbar'
 
 import homecard1 from '../../assets/homecard1.png'
 import homecard2 from '../../assets/homecard2.png'
@@ -20,7 +18,6 @@ import OVBI from '../../assets/OVBI_icon.png'
 export default function Home() {
   return (
     <div>
-        <Navbar></Navbar>
         <div className='home_section'>
             <Carousel></Carousel>
             {/* collabration */}
@@ -184,7 +181,6 @@ export default function Home() {
     
             
          </div>
-        <Footer></Footer>
 
     </div>
     
