@@ -1,0 +1,119 @@
+.accPageSection1{
+    width: 100%;
+}
+.accPageBg{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+}
+.accPageHeading{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-family: Bold;
+}
+.accPageSection2{
+    width: 80%;
+    padding: 2% 10%;
+}
+.accPageSectionHeading{
+    font-size: 25px;
+    font-family: Bold;
+    margin-bottom: 15px;
+    color: #316412;
+    text-align: center;
+    margin: 10px;
+}
+.accPageSectionContent{
+    font-size: 16px;
+    font-family: Regular;
+    margin-bottom: 15px;
+    line-height: 28px;
+    text-align: center;
+    margin: 2% 10%;
+}
+.accPageSection2Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.accPageSection2Card{
+    background-color: white;
+    border:1px solid #316412;
+    border-radius: 20px;
+    padding: 20px;
+    width: 45%;
+}
+.accPageSection2CardHeading{
+    font-size: 14px;
+    font-family: SemiBold;
+    margin-bottom: 15px;
+    line-height: 28px;
+    color: black;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+.accPageSection2CardContent{
+    font-size: 16px;
+    font-family: Medium;
+    margin-bottom: 15px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.accPageSection2CardContent a{
+    text-decoration: none;
+    color: #316412;
+}
+.accPageBtn{
+    border: none;
+    background-color: #316412;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Bold";
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.accPageSection3{
+    width: 80%;
+    padding: 2% 10%;
+    background-color: #E5E5E5;
+}
+.accPageSection4{
+    width: 80%;
+    padding: 2% 10%;
+}
+.accPageSection4Header{
+    font-size: 16px;
+    font-family: SemiBold;
+    color: #316412;
+    margin-bottom: 20px;
+}
+.accPageSection4Heading{
+    font-size: 16px;
+    font-family: Bold;
+    color: black;
+    margin: 20px 0px;
+}
+.accPageSectionContentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.accPageContent{
+    font-size: 15px;
+    font-family: Regular;
+    margin: 20px 0px;
+    line-height: 28px;
+    width: 60%;
+}
+.accPageImage{
+    width: 35%;
+}
