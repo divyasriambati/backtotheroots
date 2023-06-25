@@ -86,27 +86,27 @@ export default function Contact() {
     })
 
 
-  //   const PostContactFormData =async(e)=>{
-  //     // e.preventDefault()
+    const PostContactFormData =async(e)=>{
+      // e.preventDefault()
 
-  //     const{firstName,lastName,email,phoneNumber}=details;
+      const{firstName,lastName,email,phoneNumber}=details;
 
-  //    const res=await fetch("https://adv-5a40a-default-rtdb.firebaseio.com/contactform.json",
-  //    {
-  //        method:'POST',
-  //        headers:{
-  //            'Content-Type':'application/json'
-  //        },
-  //        body:JSON.stringify({
-  //         firstName,
-  //         lastName,
-  //         email,
-  //         phoneNumber
+     const res=await fetch("https://back-to-the-roots-f24df-default-rtdb.firebaseio.com/contactform.json",
+     {
+         method:'POST',
+         headers:{
+             'Content-Type':'application/json'
+         },
+         body:JSON.stringify({
+          firstName,
+          lastName,
+          email,
+          phoneNumber
          
-  //        })
-  //     })
+         })
+      })
 
-  // }
+  }
 
       var handleFirstNameChange = (e) => {
         // setIsValidFirstName(1);
@@ -172,7 +172,7 @@ export default function Contact() {
       event.preventDefault();
       console.log(firstName, lastName, email, phoneNumber);
       if(firstName.length > 0 && lastName.length > 0 && email.length > 0 && phoneNumber.length == 10 ){
-          // PostContactFormData(event)
+          PostContactFormData(event)
           handleClickOpen()
           setfirstName(' ')
           setlastName(' ')
