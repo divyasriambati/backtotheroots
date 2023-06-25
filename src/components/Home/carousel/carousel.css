@@ -38,9 +38,9 @@
     color: #316412;
     font-family: Medium;
 }
-.slick-dots li  button::before {
+/* .slick-dots li  button::before {
     top: -30px;
-}
+} */
 @media screen and (max-width: 425px){
     .Carousel_section{
         height: 70vh;
