@@ -6,6 +6,7 @@ import economic_upliftment from '../../assets/Economic_upliftment.svg'
 import culture_familyValues from '../../assets/culture_family-values.svg'
 import health_hygeine from '../../assets/Health_hygiene.svg'
 import dummyImg from '../../assets/dummyImage.png'
+import model_village from '../../assets/model_village.JPG'
 
 function Mission(props) {
     return (
@@ -136,7 +137,7 @@ function Mission(props) {
                 </div>
                 <div className='cardAlignment'>
                     <div className='missionPageCard'>
-                        <div className='cardImage'><img src={dummyImg} className='missionPageImages' /></div>
+                        <div className='cardImage'><img src={model_village} className='missionPageImages' /></div>
                         <div className='cardContent'>
                             <div className='cardHeader'>Model Villages:</div>
                             <li>

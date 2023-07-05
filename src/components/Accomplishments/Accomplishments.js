@@ -22,6 +22,11 @@ import padayatra from '../../assets/padayatra.png'
 import empower_education from '../../assets/empower_edu.JPG'
 import bajana_training from '../../assets/bajana_training.JPG'
 import d2d_stickering from '../../assets/d2d_stickering.jpeg'
+import maintain_demography from '../../assets/maintain_demography.jpg'
+import skills_development from '../../assets/skills_development.JPG'
+import volunteer_aid from '../../assets/Cyclone_Hudhud.jpeg'
+import village_adoption from '../../assets/model_village.JPG'
+import tution_center from '../../assets/tution_center.jpg'
 import dummyImg from '../../assets/dummyImage.png'
 
 export default function Accomplishments() {
@@ -191,7 +196,7 @@ export default function Accomplishments() {
         </div>
         <div className='accPageSection4Heading'>4. Maintaining Demography</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={maintain_demography} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 <b>Title: </b>Maintaining Demographic Equilibrium for Sustainable Communities<br />
                 The "Maintaining Demography" project addresses population decline and demographic imbalances through strategies
@@ -255,7 +260,7 @@ export default function Accomplishments() {
         </div>
         <div className='accPageSection4Heading'>2. Tuition center in newly constructed temples.</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={tution_center} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 Tuition centers integrated within newly constructed temples offer additional academic support and a 
                 harmonious learning environment for students. Qualified tutors provide personalized attention, addressing 
@@ -299,7 +304,7 @@ export default function Accomplishments() {
         </div>
         <div className='accPageSection4Heading'>6. Skills training in collaboration with SSRDP</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={skills_development} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 Skills training in collaboration with SSRDP (Sri Sri Rural Development Program) empowers individuals in rural 
                 areas by providing them with essential skills for personal and professional growth. The program focuses on 
@@ -318,7 +323,7 @@ export default function Accomplishments() {
                 and inclusive growth. Education and healthcare are key areas of emphasis to provide access to quality education 
                 and improve overall well-being.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={village_adoption} className='missionPageImages'/></div>
         </div>
     </div>
 
@@ -368,7 +373,7 @@ export default function Accomplishments() {
         </div>
         <div className='accPageSection4Heading'>4. Volunteers Aid Hudhud Cyclone Victims</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={volunteer_aid} className='missionPageImages'/></div>
             <div className='accPageContent'>
             In the wake of the destructive Hudhud Cyclone, a display of remarkable solidarity and compassion was witnessed as 
             300 dedicated volunteers selflessly rallied together to provide assistance and support to the affected communities. 
