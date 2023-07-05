@@ -94,57 +94,57 @@ export default function Accomplishments() {
           <div>
             <Slider {...sliderSettings}>
                 <div className='slider_card' >
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Ayurveda Medical Camps </div>
-                     <div className='slider_card_description'>Holistic healthcare for community</div>
+                     <div className='slider_card_description'>Promoting Ayurvedic principles and holistic healthcare for community</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'> Village Mineral Water Plant</div>
-                     <div className='slider_card_description'>Safe drinking water plant initiative.</div>
+                     <div className='slider_card_description'>Safe drinking water for the entire village via sustainable initiative.</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Soaking Pits in Villages</div>
-                     <div className='slider_card_description'> Water Conservation Initiative</div>
+                     <div className='slider_card_description'> Sustainable water management and conservation Initiative.</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Volunteers Aid Hudhud Victims</div>
                      <div className='slider_card_description'>Selfless support for cyclone-affected communities</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'> Padayatra in Astanagurthy</div>
                      <div className='slider_card_description'>Empowering community through village voices </div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Evening Schools </div>
                      <div className='slider_card_description'>Empowering marginalized children through 200 evening schools</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Empowering Education </div>
                      <div className='slider_card_description'>8,000 Children Thriving in Evening Schools</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Aawasa Bhajan Sikshana</div>
                      <div className='slider_card_description'>Empowered 5000 individuals through this training</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
                      <div className='slider_card_title'>Embracing Ancestral Faith</div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <div className='slider_card_description'>Reconnecting individuals with ancestral roots & fostering unity.</div>
                      <button className='slider_button'>Read More</button>
                 </div> 
             </Slider>
