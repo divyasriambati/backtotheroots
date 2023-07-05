@@ -127,17 +127,29 @@ export default function Accomplishments() {
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Empowering Education </div>
+                     <div className='slider_card_description'>8,000 Children Thriving in Evening Schools</div>
                      <img className='slider_card_img' src={students} alt="Donations at work"></img>
                      {/* <div className='slider_card_title'>Temples 5</div> */}
                      <div className='slider_card_description'>Improving Educational Standards through 200 Evening Schools</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Aawasa Bhajan Sikshana</div>
+                     <div className='slider_card_description'>Empowered 5000 individuals through this training</div>
+                     <button className='slider_button'>Read More</button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
+                     <div className='slider_card_title'>Embracing Ancestral Faith</div>
+                     <div className='slider_card_description'>Reconnecting individuals with ancestral roots & fostering unity.</div>
                      <img className='slider_card_img' src={Ancestral_faith} alt="Donations at work"></img>
                      {/* <div className='slider_card_title'>Temples 6</div> */}
                      <div className='slider_card_description'>Embracing Ancestral Faith</div>
                      <button className='slider_button'>Read More</button>
-                </div>
+                </div> 
             </Slider>
           </div>
     </div>

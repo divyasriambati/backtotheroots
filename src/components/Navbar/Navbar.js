@@ -16,6 +16,9 @@ function Navbar(props) {
     const handleShowNavbar = () => {
       setShowNav(!showNavbar)
     }
+    const handleCloseNavbar = () => {
+      setShowNav(false);
+    }
 
     return (
         <div className='nav-main-container'>
@@ -56,25 +59,25 @@ function Navbar(props) {
                   <div className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>
                       <li>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/" onClick={handleCloseNavbar}>Home</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/about" onClick={handleCloseNavbar}>About</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/mission">Mission</NavLink>
+                        <NavLink to="/mission" onClick={handleCloseNavbar}>Mission</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/Gallery">Gallery</NavLink>
+                        <NavLink to="/Gallery" onClick={handleCloseNavbar}>Gallery</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/Collabrations">Collabrations</NavLink>
+                        <NavLink to="/Collabrations" onClick={handleCloseNavbar}>Collabrations</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/Accomplishments">Accomplishments</NavLink>
+                        <NavLink to="/Accomplishments" onClick={handleCloseNavbar}>Accomplishments</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/Contact">Contact</NavLink>
+                        <NavLink to="/Contact" onClick={handleCloseNavbar}>Contact</NavLink>
                       </li>
                       <li>
                         <button className='donate-button'>Donate</button>

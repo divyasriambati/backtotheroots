@@ -189,13 +189,13 @@ export default function Home() {
                     <div className='card_collection'>
                     <div className='home_card'>
                         <img className='home_card_img' src={homecard1} alt="Vision"></img>
-                        <div className='home_card_title'>Education</div>
+                        <div className='home_card_title'>Project 1</div>
                         <div className='home_card_description'>Build school for childrens</div>
                         <button className='home_button'>Donate Now</button>
                     </div>
                     <div className='home_card'>
                         <img className='home_card_img' src={homecard2} alt="Donations at work"></img>
-                        <div className='home_card_title'>Temples </div>
+                        <div className='home_card_title'>Project 2 </div>
                         <div className='home_card_description'>Build temples in villages</div>
                         <button className='home_button'>Donate Now</button>
                     </div>
