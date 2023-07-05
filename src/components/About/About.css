@@ -12,8 +12,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+   align-items: center;
 }
 .About_content{
+    width: 100%;
+   padding: 5vh 0vh 5vh 0vh;
+    /* background-color: black; */
+    text-align: center;
+}
+.About_title{
+    font-family: Bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+.About_description{
+    line-height:24px;
+    width: 70%;
+    padding: 0 0 0 18%;
+    /* width: 60%; */
+    
+}
+/* .About_content{
     width: 60%;
     margin: 5vh 10%;
 }
@@ -26,7 +45,7 @@
     line-height:24px;
     text-align: justify;
     width: 80%;
-}
+} */
 .Contact_button{
     border: none;
     background-color: #fff;

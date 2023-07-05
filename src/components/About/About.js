@@ -3,6 +3,7 @@ import './About.css'
 import BTTR from '../../assets/homecard1.png'
 import BTTR_director from '../../assets/BTTR_director.png'
 import about_accomplishment from '../../assets/about_accomplishment.png'
+import PADAYATRA from '../../assets/padayatra.png';
 
 function About(props) {
     return (
@@ -59,7 +60,7 @@ function About(props) {
             </div>
             {/* Padayatra Section */}
             <div className='About_flex_container'>
-                <img src={BTTR_director} alt="Project Director" className="BTTR_Project_director_image"></img>
+                <img src={PADAYATRA} alt="Project Director" className="BTTR_Project_director_image"></img>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_title'>
                     The Pada Yatra - A Journey on Foot
@@ -78,27 +79,25 @@ function About(props) {
                      Roots Project." The project aims to tackle the challenges faced by rural communities and revitalize their economic, cultural,
                       and social well-being. By collaborating with Ved Vignan Maha Vidya Peeth (VVMVP), Sudhakar and his team seek to create lasting
                        change and empower these communities.
-
                     </div>
 
                 </div>
             </div>
 
             <div className="container_bg">
-             
              <div className='About_flex_container'>
-                <img src={about_accomplishment} alt="Collabrations" className="BTTR_Project_director_image"></img>
-                <div className='BTTR_Project_director_content'>
+             <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_description'>
                     Sacramento Projects, presumably a stakeholder in the BTTR project, has decided to adopt villages and aid in their transformation. 
                     Astanagurthy, located in the Wyra Mandal of Khammam District in Telangana, has been selected as one of these villages. BTTR is currently
                      in the process of choosing another village in the state of Andhra Pradesh.The transformational work in Astanagurthy commenced in
-                      September 2017. More specific information about the activities and plans for Astanagurthy are available 
-                      at http://www.backtotherootsproject.org/progress. 
+                      September 2017. 
                     </div>
                     <br></br>
                     <button className='our_Accomplishments'>Accomplishments</button>
                 </div>
+                <img src={about_accomplishment} alt="Collabrations" className="BTTR_Project_director_image"></img>
+                
               </div> 
               </div>
 
