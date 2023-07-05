@@ -48,10 +48,13 @@
     margin: 30px auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 .BTTR_Project_director_image{
-    height:250px;
-    width: 250px;
+    /* height:250px;
+    width: 250px; */
+    max-width: 100%;
+    height: auto;
 }
 .BTTR_Project_director_title{
     font-family: Bold;
@@ -64,6 +67,7 @@
     line-height: 27px;
     text-align: justify;
 }
+
 .our_Accomplishments {
     color: white;
     flex-shrink: 0;
