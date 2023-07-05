@@ -27,9 +27,13 @@ function About(props) {
                     </div>
                     <br></br>
                     <div className='BTTR_Project_director_description'>
-                        The project director of BTTR is Sudhakar Garu. Sudhakar Garu, an individual with a successful career in the United States,
-                         chose to leave his lucrative career and return to India to contribute to the upliftment of rural communities. 
-                         He has dedicated the past seven years to the BTTR project, focusing his efforts on empowering villages.
+                    Sudhakar V., hailing from Andhra Pradesh, India, embarked on a remarkable journey that led to the creation of the
+                     "Back to the Roots Project." After completing his engineering degree, Sudhakar pursued higher studies in the United States,
+                      where he obtained a Masters's Degree in Computer Science. Having spent 17 years abroad, Sudhakar developed a deep interest 
+                      in Indian culture, customs, traditions, and the values that shaped our nation. Motivated by his roots, he sought to 
+                      reconnect with his homeland, chose to leave his lucrative career and return to India to contribute to the upliftment of
+                       rural communities. He has dedicated the past 12 years to the BTTR project, focusing his efforts on empowering villages.
+
                     </div>
 
                 </div>
@@ -53,20 +57,53 @@ function About(props) {
                 <img src={BTTR} alt="Back to the roots" className="BTTR_Project_director_image"></img>
             </div>
             </div>
+            {/* Padayatra Section */}
+            <div className='About_flex_container'>
+                <img src={BTTR_director} alt="Project Director" className="BTTR_Project_director_image"></img>
+                <div className='BTTR_Project_director_content'>
+                    <div className='BTTR_Project_director_title'>
+                    The Pada Yatra - A Journey on Foot
+                    </div>
+                    <br></br>
+                    <div className='BTTR_Project_director_description'>
+                    In 2010, Sudhakar and a diverse team of five friends from the United States, Japan, Germany, Croatia, and the Netherlands, 
+                    all students learning Sanskrit and Vedic literature in India, embarked on an extraordinary adventure. They embarked on a 
+                    "Pada Yatra" or journey on foot through rural villages in West Godavari, Visakhapatnam, and Anantapur districts. Their goal
+                     was to immerse themselves in the heart of India, meeting people, sharing insights about Indian culture, and fostering
+                      connections with the villagers.
+
+                    </div>
+                    <div className='BTTR_Project_director_description'>
+                    &nbsp; Inspired by his encounters, Sudhakar made multiple visits to the villages, laying the groundwork for the "Back to the
+                     Roots Project." The project aims to tackle the challenges faced by rural communities and revitalize their economic, cultural,
+                      and social well-being. By collaborating with Ved Vignan Maha Vidya Peeth (VVMVP), Sudhakar and his team seek to create lasting
+                       change and empower these communities.
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="container_bg">
              
              <div className='About_flex_container'>
                 <img src={about_accomplishment} alt="Collabrations" className="BTTR_Project_director_image"></img>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_description'>
-                    Sacramento Projects, presumably a stakeholder in the BTTR project, has decided to adopt villages and aid in their transformation.
-                     Astanagurthy, located in the Wyra Mandal of Khammam District in Telangana, has been selected as one of these villages. BTTR is 
-                     currently in the process of choosing another village in the state of Andhra Pradesh.The transformational work in Astanagurthy 
-                     commenced in September 2017. 
+                    Sacramento Projects, presumably a stakeholder in the BTTR project, has decided to adopt villages and aid in their transformation. 
+                    Astanagurthy, located in the Wyra Mandal of Khammam District in Telangana, has been selected as one of these villages. BTTR is currently
+                     in the process of choosing another village in the state of Andhra Pradesh.The transformational work in Astanagurthy commenced in
+                      September 2017. More specific information about the activities and plans for Astanagurthy are available 
+                      at http://www.backtotherootsproject.org/progress. 
                     </div>
                     <br></br>
                     <button className='our_Accomplishments'>Accomplishments</button>
                 </div>
               </div> 
+              </div>
+
+
+              
 
 
 
