@@ -11,7 +11,6 @@ function Mission(props) {
     return (
         
         <div className='missionPageSection1'> 
-
         {/* section1 */}
             <div>
                 <img src={missionBg} className='missionpageBg' />

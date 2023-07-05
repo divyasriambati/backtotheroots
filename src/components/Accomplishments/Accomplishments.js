@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick'
 import './Accomplishments.css';
 import missionBg from '../../assets/missionpageBg.svg'
-import homecard2 from '../../assets/homecard2.png'
+import students from '../../assets/homecard2.png'
 import { Outlet, Link } from "react-router-dom";
 
 import archika_training from '../../assets/archika_training.png'
@@ -13,6 +13,15 @@ import organicFarming from '../../assets/organic_farming.png'
 import harathi from '../../assets/samohika_harathi.png'
 import templeConstruction from '../../assets/temple_construction.png'
 import YLTPTraining from '../../assets/YLTP_training.png'
+import soakpits from '../../assets/soakpits.JPG'
+import mineral_water from '../../assets/mineral_water.JPG'
+import medical_camp from '../../assets/medical_camp.jpeg'
+import Ancestral_faith from '../../assets/Ancestral_Faith.JPG'
+import higher_edu_support from '../../assets/higher_edu_support.JPG'
+import padayatra from '../../assets/padayatra.png'
+import empower_education from '../../assets/empower_edu.JPG'
+import bajana_training from '../../assets/bajana_training.JPG'
+import d2d_stickering from '../../assets/d2d_stickering.jpeg'
 import dummyImg from '../../assets/dummyImage.png'
 
 export default function Accomplishments() {
@@ -94,39 +103,39 @@ export default function Accomplishments() {
           <div>
             <Slider {...sliderSettings}>
                 <div className='slider_card' >
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
-                     <div className='slider_card_title'>Temples 1 </div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <img className='slider_card_img' src={medical_camp} alt="Donations at work"></img>
+                     {/* <div className='slider_card_title'></div> */}
+                     <div className='slider_card_description'>Ayurveda Medical Camps and their Impact on Health</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
-                     <div className='slider_card_title'>Temples 2</div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <img className='slider_card_img' src={mineral_water} alt="Donations at work"></img>
+                     {/* <div className='slider_card_title'>Temples 2</div> */}
+                     <div className='slider_card_description'>Development of a Village Mineral Water Plant</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
-                     <div className='slider_card_title'>Temples 3</div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <img className='slider_card_img' src={soakpits} alt="Donations at work"></img>
+                     {/* <div className='slider_card_title'>Temples 3</div> */}
+                     <div className='slider_card_description'> Building Soaking Pits in Telangana Villages</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
-                     <div className='slider_card_title'>Temples 4</div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <img className='slider_card_img' src={padayatra} alt="Donations at work"></img>
+                     {/* <div className='slider_card_title'>Temples 4</div> */}
+                     <div className='slider_card_description'>BTTR Team Engages with Astanagurthy Residents during Padayatra</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
-                     <div className='slider_card_title'>Temples 5</div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <img className='slider_card_img' src={students} alt="Donations at work"></img>
+                     {/* <div className='slider_card_title'>Temples 5</div> */}
+                     <div className='slider_card_description'>Improving Educational Standards through 200 Evening Schools</div>
                      <button className='slider_button'>Read More</button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={homecard2} alt="Donations at work"></img>
-                     <div className='slider_card_title'>Temples 6</div>
-                     <div className='slider_card_description'>Build temples in villages</div>
+                     <img className='slider_card_img' src={Ancestral_faith} alt="Donations at work"></img>
+                     {/* <div className='slider_card_title'>Temples 6</div> */}
+                     <div className='slider_card_description'>Embracing Ancestral Faith</div>
                      <button className='slider_button'>Read More</button>
                 </div>
             </Slider>
@@ -221,7 +230,7 @@ export default function Accomplishments() {
                 The campaign aims to increase knowledge, foster pride, and preserve tribal heritage. It improves cultural 
                 awareness, challenges misconceptions, and promotes acceptance in society.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={d2d_stickering} className='missionPageImages'/></div>
         </div>
     </div>
 
@@ -257,7 +266,7 @@ export default function Accomplishments() {
             students, promoting gender equality, and ensuring access to education for all. Its goal is to provide resources for 
             students to complete their degrees, secure job opportunities, and build successful careers.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={higher_edu_support} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>4. Training farmers on zero budget natural farming(Organic Farming)</div>
         <div className='accPageSectionContentContainer'>
@@ -320,11 +329,11 @@ export default function Accomplishments() {
             and provide personalized care based on the principles of Ayurveda, focusing on natural remedies, lifestyle 
             modifications, and preventive measures.    
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={medical_camp} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>2. Development of a Village Mineral Water Plant:</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={mineral_water} className='missionPageImages'/></div>
             <div className='accPageContent'>
             In an effort to provide clean and safe drinking water to the entire village, a mineral water plant with a capacity 
             of 1,000 liters per hour is set to be constructed in the first half of the year. This initiative aims to ensure that 
@@ -349,7 +358,7 @@ export default function Accomplishments() {
             the combined efforts of various stakeholders, this project has the potential to create a positive impact on water 
             conservation, environmental sustainability, and the overall well-being of the communities involved.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={soakpits} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>4. Volunteers Aid Hudhud Cyclone Victims</div>
         <div className='accPageSectionContentContainer'>
@@ -377,11 +386,11 @@ export default function Accomplishments() {
             value-based education. The BTTR team aims to address these areas and transform Astanagurthy into a model village 
             with the support of village leaders and the community.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={padayatra} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>6. Improving Educational Standards through 200 Evening Schools</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={students} className='missionPageImages'/></div>
             <div className='accPageContent'>
             The establishment of 200 evening schools was a significant initiative aimed at improving the educational standards of 
             children from economically disadvantaged backgrounds and instilling the values of Samskara in them. These schools 
@@ -403,11 +412,11 @@ export default function Accomplishments() {
             The positive influence of their education extends beyond themselves, contributing to the progress and well-being of 
             their communities.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={empower_education} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>8. Empowering 5000 Individuals through Aawasa Bhajan Sikshana</div>
         <div className='accPageSectionContentContainer'>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={bajana_training} className='missionPageImages'/></div>
             <div className='accPageContent'>
             The successful accomplishment of Aawasa Bhajan Sikshana for 5000 people represents a significant achievement in 
             promoting spiritual and cultural enrichment. The program provided a residential setting for participants to immerse 
@@ -428,7 +437,7 @@ export default function Accomplishments() {
             culture, revitalizes traditions, and fosters unity within the community. It is essential to ensure that the programme
             is implemented respectfully and inclusively, with individuals making their decisions freely and without coercion.
             </div>
-            <div className='accPageImage'><img src={dummyImg} className='missionPageImages'/></div>
+            <div className='accPageImage'><img src={Ancestral_faith} className='missionPageImages'/></div>
         </div>
     </div>
 

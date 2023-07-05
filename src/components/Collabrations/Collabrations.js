@@ -8,7 +8,11 @@ import ATA from '../../assets/ATA.svg';
 import BATA from '../../assets/BATA.svg';
 import NATA from '../../assets/NATA.svg';
 import NATS from '../../assets/NATS.svg';
-import silicon_andhra from '../../assets/siliconAndhra.svg'
+import silicon_andhra from '../../assets/siliconAndhra.svg';
+import SSF from '../../assets/SSF_collab.JPG';
+import SV_Gurudev from '../../assets/SV_gurudev.JPG';
+import AOL_collab from '../../assets/YLTP_collab.JPG';
+import VDS from '../../assets/vds_collab.webp';
 
 export default function Collbrations() {
   return (
@@ -37,12 +41,12 @@ export default function Collbrations() {
                 <button className="readMoreBtn"><Link className='Link' to="/home"> Read More</Link> </button>
               </div>
               <div className='collabPageSection2Image'>
-                Image
+                <img src={SV_Gurudev} className='missionPageImages' />
               </div>
           </div>
           <div className='collagePageSectionPart'>
               <div className='collabPageSection2Image'>
-                Image
+                <img src={AOL_collab} className='collabPageImages' />
               </div>
               <div className='collabPageSection2Content'>
                 <li>
@@ -72,23 +76,22 @@ export default function Collbrations() {
 
       {/* Section 3 */}
       <div className='collabPageSection3'>
-          <div className='collabPageSectionHeading'>Overseas volunteer for Better India(OVBI)</div>
+          <div className='collabPageSectionHeading'>Vedic Dharma Sansthan(VDS)</div>
           <div className='collagePageSectionPart'>
               <div className='collabPageSection2Content'>
                 <p>
-                  The Art of Living Foundation is an international non-profit organization founded by Gurudev Sri Sri Ravi Shankar 
-                  in 1981. It focuses on personal development, stress relief, and overall well-being. The organization's vision is to 
-                  create a stress-free, violence-free society. It offers workshops and courses that incorporate ancient practices 
-                  modified for modern life, including mindfulness, yoga, breathwork, and meditation. The foundation's teachings aim 
-                  to help individuals regulate stress, enhance mental clarity, improve physical health, and cultivate inner calm. 
-                  In addition to individual well-being, the organization engages in humanitarian initiatives, such as disaster relief, 
-                  rehabilitation, education, skill development, and sustainability projects to uplift communities and foster social 
-                  harmony.
+                The organization's main objective is to promote and propagate knowledge of Vedas, Yoga, Vedanta, Puranas, 
+                Itihasas, and Sanskrit language. It achieves this through awareness campaigns, educational materials, and 
+                literature. It conducts pujas, Homas, ceremonies, and festivals to foster spiritual practices and interfaith 
+                harmony. The organization upholds Vedic traditions by performing ceremonies and functions, including weddings, 
+                adhering to ancient customs and rituals. It also focuses on engaging youth in art, culture, yoga, and Indian 
+                heritage through programs and workshops. Overall, the organization aims to preserve and promote the rich cultural 
+                and spiritual heritage of India.
                 </p>
                 <button className="readMoreBtn"><Link className='Link' to="/home"> Read More</Link> </button>
               </div>
               <div className='collabPageSection2Image'>
-                Image
+                <img src={VDS} className='missionPageImages' />
               </div>
           </div>
       </div>
@@ -99,7 +102,7 @@ export default function Collbrations() {
           <div className='collabPageSectionHeading'>Samarasata Sewa Foundation(SSF)</div>
           <div className='collagePageSectionPart'>
               <div className='collabPageSection2Image'>
-                Image
+                <img src={SSF} className='collabPageImages' />
               </div>
               <div className='collabPageSection2Content'>
                 <p>

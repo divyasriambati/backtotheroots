@@ -201,8 +201,8 @@ export default function Home() {
                     </div>
                     <div className='home_card'>
                         <img className='home_card_img' src={homecard3} alt="Facebook"></img>
-                        <div className='home_card_title'>Temples</div>
-                        <div className='home_card_description'>Build temples in villages</div>
+                        <div className='home_card_title'>Empowerment and Skills Training</div>
+                        <div className='home_card_description'>need description</div>
                         <button className='home_button'>Donate Now</button>
                         
                     </div>

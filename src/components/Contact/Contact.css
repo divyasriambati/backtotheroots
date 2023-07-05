@@ -85,6 +85,11 @@
   .contactPageSection2Image{
     width: 40%;
   }
+  .Image{
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+  }
   .contactPageSection2Content{
     width: auto;
   }

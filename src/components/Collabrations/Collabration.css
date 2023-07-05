@@ -60,7 +60,10 @@
     font-family: Medium;
 }
 .collabPageSection2Image{
-    width: 30%;
+    width: 40%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 .collabPageSection3{
     width: 80%;
@@ -95,4 +98,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.collabPageImages{
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: -10%;
 }

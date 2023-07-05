@@ -119,3 +119,119 @@
     width: 90%;
     border-radius: 20px;
 }
+@media screen, (min-width: 320px),(min-width: 768px) and (orientation: landscape) {
+    .missionpageBg{
+        height: 45vh;
+    }
+    .missionPageSection1Content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    .missionPageSection1Heading{
+        font-size: 25px;
+        font-family: Bold;
+        margin-bottom: 15px;
+    }
+    .bttrVision{
+        font-size: 14px;
+        font-family: Regular;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    .missionPageBtn{
+        border: none;
+        background-color: #fff;
+        color: #316412;
+        padding: 8px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "SemiBold";
+        border-radius: 5px;
+    }
+    .link{
+        text-decoration: none;
+        color: #316412;
+        font-family: Medium;
+    }
+    .missionPageSection2{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+    }
+    .missionPageHeading{
+        font-size: 25px;
+        font-family: Bold;
+        margin-bottom: 15px;
+        color: #316412;
+    }
+    .missionPageContent{
+        font-size: 16px;
+        font-family: Regular;
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+    .missionPageSection3{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+    }
+    
+    .missionPageSection4{
+        width: 80%;
+        background-color: #E5E5E5;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+    }
+    .missionPageSection5{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+    }
+    .missionPageCard{
+        background-color: #efefef;
+        border-radius: 20px;
+        width: 80%;
+        z-index: 2;
+        box-shadow: 5px 8px 10px rgb(233, 231, 231);
+        margin: 15px;
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .cardImage{
+        width: 40%;
+    }
+    .cardContent{
+        font-size: 14px;
+        font-family: Regular;
+        margin-bottom: 15px;
+        line-height: 28px;
+        width: 60%;
+    }
+    .cardHeader{
+        font-size: 15px;
+        font-family: SemiBold;
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+    .cardAlignment{
+        display: flex;
+        justify-content: right;
+    }
+    .missionPageImages{
+        height: 90%;
+        width: 90%;
+        border-radius: 20px;
+    }
+}
+@media screen, (min-width: 769px) and (min-width: 1024px){
+
+}

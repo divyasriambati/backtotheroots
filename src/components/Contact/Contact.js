@@ -17,6 +17,7 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
 
+import BTTR_director from '../../assets/BTTR_director.png'
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   '& .MuiDialogContent-root': {
@@ -304,7 +305,7 @@ export default function Contact() {
       {/* Section 2 */}
 
       <div className='contactPageSection2'>
-        <div className='contactPageSection2Image'>Image</div>
+        <div className='contactPageSection2Image'><img src={BTTR_director} className='Image'/></div>
         <div className='contactPageSection2Content'>
             <div className='contactPageSection2Heading'>SUDHAKAR VERAVALLI</div>
             <div className='contactPageContent'>Director, Back To The Roots Project<br />
