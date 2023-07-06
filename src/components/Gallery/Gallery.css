@@ -40,7 +40,7 @@
 .Gallery_tab_image {
     object-fit: cover;
     max-width: 250px;
-    height: auto;
+    height: 250px;
     vertical-align: middle;
     border-radius: 5px;
 }
