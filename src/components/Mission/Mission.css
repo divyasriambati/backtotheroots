@@ -1,28 +1,4 @@
-.missionPageSection1{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.missionpageBg{
-    width: 100%;
-    height: 40vh;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    filter: brightness(.8);
-}
-.missionPageSection1Content {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-}
-.missionPageSection1Heading{
-    font-size: 40px;
-    font-family: Bold;
-    margin-bottom: 15px;
-}
+
 .bttrVision{
     font-size: 18px;
     font-family: Regular;
@@ -89,10 +65,14 @@
     z-index: 2;
     box-shadow: 5px 8px 10px rgb(233, 231, 231);
     margin: 15px;
-    padding: 2%;
+    padding: 20px;
+}
+.missionPageCardContent{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0 auto;
+    width: 95%
 }
 .cardImage{
     width: 40%;
@@ -119,5 +99,20 @@
     width: 90%;
     border-radius: 20px;
 }
-
+@media (max-width: 768px){
+    .missionPageCardContent{
+        flex-direction: column;
+    }
+    .cardAlignment{
+        justify-content: center;
+    }
+    .cardImage{
+        width: 250px;
+        height: 250px;
+        border-radius:20px
+    }
+    .cardContent{
+        width: 90%;
+    }
+}
 

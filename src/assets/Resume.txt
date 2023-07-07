@@ -1,0 +1,127 @@
+SRAVAN SATISH KONDREDDY
+Full Stack Developer
+
+sravansatish.kondreddy@gmail.com
++1-470-896-4420
+github.io/sravan2509
+Apharetta,GA
+
+Summary
+======
+Highly skilled and experienced full-stack developer with over 2 years of experience.Proficient in front-end development using JavaScript, Angular, React, and back-end development using Node.js, golang.Experience in monitoring and managing AWS resources using Amazon CloudWatch for real-time monitoring, logging, and alerting.Ability to architect, design, and implement scalable and cost-effective solutions on the AWS cloud platform using various services.Involved in the complete SDLC including gathering Requirements, Analysis, Design, Implementation, Testing and Maintenance.Experienced in end-to-end development, collaborating with cross-functional teams.Strong ability to translate business requirements into technical specifications.
+
+
+Education
+======
+M.S. in Computer Science
+4.0
+Kennesaw State Unversity
+01/nullundefined
+Marietta, GA
+
+B.Tech in Electronics and Communication
+8.77
+Sagi Rama Krishnam Raju Engg. College
+01/nullundefined
+Bhimavaram , AP
+
+
+Experience
+======
+ Full stack Developer
+MSR Tech Labz
+01/2021 - 01/2022
+Remote
+MSRTech Research labs Private Limited is an management Consulting Group with a rapid pace development and innovative solutions for demanding projects. I work as a full-stack developer here, responsible for building, deploying and maintaining internal web applications.
+ - Developed and delivered 4 projects on time with the team of three.
+ - Used React, Angular and IONIC framwork,Nodejs, Golang to build these project.
+ - Conducted code reviews, unit testing, and integration testing
+ - Designed and developed RESTful APIs using Node.js and Golang.
+ - Along with these projects simultaneously lead another team (interns).
+ - Managed development milestones throughout the SDLC.
+ - Worked with a committee of 6 members to organise fun-activities for the employees
+
+Front End Developer
+V4U
+01/2016 - 01/2018
+San Fransisco, CA
+Lauzon is a universal digital loyalty program that offers unique and fun rewards at the places you love.
+ - Hired, trained and lead Agile team of 7 full-stack developers
+ - Simultaneously created & maintained scheduled jobs in SQL Server for space maintenance and daily backups of system and user databases for 10 clients
+ - Increased company revenue by 30% within 2 months after developing and implementing business logic for over 20 features
+ - Designed and Developed UI design for over 15 clients using CSS, HTML, ASP.NET, Vue, and React; websites scoring over 85 on Lighthouse
+
+Solution Architect
+Keeling Group
+01/2010 - 01/2013
+Palo Alto, CA
+Keeling Group is a leading Digital Product Studio in California, helping companies to thrive on mobile apps, the web, VR/AR and IoT.
+ - Shortened project timeline by 14 months for company's largest customer by managing relationship with 3rd party vendors, saving over $800K
+ - Led development of $500K research project which was deemed a "gold standard" by the client
+ - Fine-tuned and developed AI/ML-based algorithms based on the results with Scikit-learn, increasing revenue 2-fold
+ - Performed Web Scraping over a catalog of 100K+ school supply products using mainly NodeJS and MongoDB; completed in 1 month
+
+
+Skills
+======
+Client-Side
+ - HTML
+ - CSS
+ - JS
+ - Angular
+ - React
+ - Vue
+ - Redux
+ - TypeScript
+ - Backbone
+ - Bootstrap
+
+Server-side
+ - Python
+ - NumPy
+ - SciPy
+ - Scikit-learn
+ - Keras
+ - Eli5
+ - TensorFlow
+ - MySQL
+ - NodeJS
+ - Redis
+ - AWS
+ - MongoDB
+ - Spark
+ - HTTP/2
+
+Development & Operations
+ - JUnit
+ - NUnit
+ - PyUnit
+ - TestCafe
+ - Mocha
+ - Jest
+ - Scrum
+ - Agile
+ - GIT
+ - Azure DevOps
+
+
+Projects
+======
+OpenFlow based Firewall
+08/2012 - 12/2013
+https://github.com/danette.east/OpenFlow-Firewall
+Palo Alto, CA
+OpenFlow protocol-based proactive Firewall in Python and NodeJS.
+ - Configured static rules using MD-SAL
+ - Engineered proactive rule evaluation system at OSI layer 7 using POX controller
+ - Provided flexibility to configure rule using centralised NodeJS based GUI
+
+
+Strengths
+======
+Team Leadership
+Introduction to Leadership course by Harvard 
+
+Communication
+Attended a Communication course at Stanford.
+

@@ -185,9 +185,7 @@ export default function Contact() {
   return (
     <div>
        {/* section 1 */}
-        <div>
-                <img src={contactpageImg} className="contactPageImg"></img>
-
+        <div className='contactPageImg'>
                 <div className="contactFormContainerText">
                     <div className="contactPageHeading">Contact Us</div>
                     <div  className="contactForm">
@@ -196,7 +194,7 @@ export default function Contact() {
                                 <label className="registerFormlabel">
                                     First Name*
                                    
-                                    <input style={{width:"80%"}}
+                                    <input className='WidthFirstname'
                                         type="text"
                                         value={firstName}
                                         name="user_name"
@@ -222,7 +220,7 @@ export default function Contact() {
                                     />
                                     {lastName == "" &&
                                     isValidSecondName == 0 ? (
-                                        <p className="error">Please enter valid second name</p>
+                                        <p className="error">Please enter valid last name</p>
                                     ) : (
                                         ""
                                     )}

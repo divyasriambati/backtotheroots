@@ -1,5 +1,6 @@
 .accPageSection1{
     width: 100%;
+    margin: 0 auto;
 }
 .accPageBg{
     width: 100%;
@@ -65,7 +66,6 @@
     font-family: Medium;
     margin-bottom: 15px;
     line-height: 28px;
-    margin-bottom: 15px;
 }
 .accPageSection2CardContent a{
     text-decoration: none;
@@ -166,4 +166,30 @@
     font-size: 16px;
     font-family: "SemiBold";
     border-radius: 10px;
+}
+@media only screen and (max-width :768px) {
+    .accPageSection2Card{
+        width:95%;
+        padding: 10px;
+        text-align:left;
+        margin-bottom: 10px;
+    }
+    .accPageSectionContent{
+        text-align: justify;
+    }
+    .accPageSectionContentContainer{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .accPageContent{
+        width: 90%;
+        text-align:justify;
+    }
+    .accPageImage{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .revertsections{
+        flex-direction: column-reverse;
+    }
 }

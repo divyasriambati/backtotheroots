@@ -105,3 +105,26 @@
     border-radius: 20px;
     margin-left: -10%;
 }
+@media only screen and (max-width :768px) {
+    .collabPageHeading{
+        font-size:40px
+    }
+    .collagePageSectionPart{
+        flex-direction: column;
+    }
+    .collabPageSection2Content{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .collabPageSection2Image{
+        width: 250px;
+        height:250px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .revertsections{
+        flex-direction: column-reverse;
+    }
+}

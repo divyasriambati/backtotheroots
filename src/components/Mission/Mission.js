@@ -1,11 +1,10 @@
 import React from 'react';
 import './Mission.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import missionBg from '../../assets/missionpageBg.svg'
 import economic_upliftment from '../../assets/Economic_upliftment.svg'
 import culture_familyValues from '../../assets/culture_family-values.svg'
 import health_hygeine from '../../assets/Health_hygiene.svg'
-import dummyImg from '../../assets/dummyImage.png'
 import model_village from '../../assets/model_village.JPG'
 
 function Mission(props) {
@@ -13,14 +12,15 @@ function Mission(props) {
         
         <div className='missionPageSection1'> 
         {/* section1 */}
-            <div>
-                <img src={missionBg} className='missionpageBg' />
-                <div className='missionPageSection1Content'>
-                    <div className='missionPageSection1Heading'>Mission & Vision</div>
-                    <div className='bttrVision'>To solve India’s grand challenges by bringing together global thought leaders,
+            <div className="About">
+                <div className="About_content">
+                    <div className='About_title'>Mission & Vision</div><br></br>
+                    <div className='About_description'>
+                    To solve India’s grand challenges by bringing together global thought leaders,
                         entrepreneurs, scientists, policymakers, and grassroots leaders in India.
                     </div>
-                    <button className="missionPageBtn"><Link className='link' to="/home"> Donate</Link> </button>
+                    <br></br>
+                    <button className='Contact_button'>Contact Us</button>
                 </div>
             </div>
         {/* section2 */}
@@ -64,6 +64,7 @@ function Mission(props) {
             <div className='missionPageSection5'>
                 <div className='missionPageHeading'>Solutions Through Back to the Roots</div>
                 <div className='missionPageCard'>
+                    <div className='missionPageCardContent'>
                     <div className='cardImage' ><img src={economic_upliftment} className='missionPageImages' /></div>
                     <div className='cardContent'>
                         <div className='cardHeader'>Economic Upliftment:</div>
@@ -84,9 +85,11 @@ function Mission(props) {
                             beautician services, thereby diversifying income opportunities for rural communities.
                         </li>
                     </div>
+                    </div>
                 </div>
                 <div className='cardAlignment'>
                     <div className='missionPageCard'>
+                        <div className='missionPageCardContent'>
                         <div className='cardImage' ><img src={culture_familyValues} className='missionPageImages' /></div>
                         <div className='cardContent'>
                             <div className='cardHeader'>Culture, Family Values, Community:</div>
@@ -111,9 +114,11 @@ function Mission(props) {
                                 shared identity within villages.
                             </li>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div className='missionPageCard'>
+                    <div className='missionPageCardContent'>
                     <div className='cardImage'><img src={health_hygeine} className='missionPageImages' /></div>
                     <div className='cardContent'>
                         <div className='cardHeader' >Health and Hygiene:</div>
@@ -134,9 +139,11 @@ function Mission(props) {
                         </li>
                         
                     </div>
+                    </div>
                 </div>
                 <div className='cardAlignment'>
                     <div className='missionPageCard'>
+                        <div className='missionPageCardContent'>
                         <div className='cardImage'><img src={model_village} className='missionPageImages' /></div>
                         <div className='cardContent'>
                             <div className='cardHeader'>Model Villages:</div>
@@ -152,6 +159,7 @@ function Mission(props) {
                                 <b>Adopt a Village Program:</b> We adopt villages for intensive development efforts, creating successful models for other 
                                 rural communities to follow.
                             </li>
+                        </div>
                         </div>
                     </div>
                 </div>

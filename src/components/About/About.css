@@ -16,9 +16,9 @@
 }
 .About_content{
     width: 100%;
-   padding: 5vh 0vh 5vh 0vh;
+   padding: 5vh 0vh;
     /* background-color: black; */
-    text-align: center;
+    text-align: center !important;
 }
 .About_title{
     font-family: Bold;
@@ -27,8 +27,8 @@
 }
 .About_description{
     line-height:24px;
-    width: 70%;
-    padding: 0 0 0 18%;
+    width: 60%;
+    padding: 0 0 0 20%;
     /* width: 60%; */
     
 }
@@ -106,5 +106,8 @@
     .BTTR_Project_director_content{
         width: 80%;
     }
-    
+    .About_description{
+        width: 80%;
+        padding:0 0 0 10%
+    }
 }

@@ -1,10 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick'
+import {Link} from 'react-scroll'
 import './Accomplishments.css';
 import missionBg from '../../assets/missionpageBg.svg'
 import students from '../../assets/homecard2.png'
-import { Outlet, Link } from "react-router-dom";
-
 import archika_training from '../../assets/archika_training.png'
 import balavikasaKendra from '../../assets/balavikasaKendra.png'
 import dharmaPracharam from '../../assets/d2d-dharma-pracharam.png'
@@ -73,15 +72,15 @@ export default function Accomplishments() {
             <div className='accPageSection2Card'>
                 <div className='accPageSection2CardHeading'>Under Samarasata Sewa Foundation (SSF) Banner</div>
                 <ol className='accPageSection2CardContent'>
-                    <a href='#'><li>Construction of temples  in Sc/St/fisherman villages</li></a>
-                    <a href='#'><li>Running balaviksa kendras in temples(traditonal and cultural education)</li></a>
+                    <a href='#'><li>Construction of temples  in SC / ST / fisherman villages</li></a>
+                    <a href='#'><li>Running balaviksa kendras in temples (traditonal and cultural education)</li></a>
                     <a href='#'><li>Samohika Arathi in temples on fullmoon days</li></a>
                     <a href='#'><li>Maintaining Demography</li></a>
-                    <a href='#'><li>Archaka sikshana(temple priest Training)</li></a>
+                    <a href='#'><li>Archaka sikshana (temple priest Training)</li></a>
                     <a href='#'><li>Door-door campaigning about dharma</li></a>
                     <a href='#'><li>Door-door Stickering</li></a>
                 </ol>
-                <button className='accPageBtn'>Read More</button>
+                <button className='accPageBtn'><Link to="SSF" spy={true} smooth={true}>Read More</Link></button>
             </div>
             <div className='accPageSection2Card'>
                 <div className='accPageSection2CardHeading'>Under Back To The Roots (BTTR) Banner</div>
@@ -94,7 +93,7 @@ export default function Accomplishments() {
                     <a href='#'><li>Skills training in collaboration with SSRDP</li></a>
                     <a href='#'><li>Adopt a village Program.</li></a>
                 </ol>
-                <button className='accPageBtn'>Read More</button>
+                <button className='accPageBtn'><Link to="BTTR" spy={true} smooth={true}>Read More</Link></button>
             </div>
         </div>
     </div>
@@ -109,45 +108,48 @@ export default function Accomplishments() {
             <Slider {...sliderSettings}>
                 <div className='slider_card' >
                      <img className='slider_card_img' src={medical_camp} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'></div> */}
                      <div className='slider_card_description'>Ayurveda Medical Camps and their Impact on Health</div>
-                     <button className='slider_button'>Read More</button>
+                     <button className='slider_button'><Link to="AyurvedaMedical" spy={true} smooth={true}>Read More</Link></button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={mineral_water} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'>Temples 2</div> */}
                      <div className='slider_card_description'>Development of a Village Mineral Water Plant</div>
-                     <button className='slider_button'>Read More</button>
+                     <button className='slider_button'><Link to="MineralWaterPlant" spy={true} smooth={true}>Read More</Link></button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={soakpits} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'>Temples 3</div> */}
                      <div className='slider_card_description'> Building Soaking Pits in Telangana Villages</div>
-                     <button className='slider_button'>Read More</button>
+                     <button className='slider_button'><Link to="SoakingPits" spy={true} smooth={true}>Read More</Link></button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={volunteer_aid} alt="Donations at work"></img>
+                     <div className='slider_card_description'>Volunteers Aid Hudhud Cyclone Victims</div>
+                     <button className='slider_button'><Link to="hudhud" spy={true} smooth={true}>Read More</Link></button>
                 </div>
                 <div className='slider_card'>
                      <img className='slider_card_img' src={padayatra} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'>Temples 4</div> */}
                      <div className='slider_card_description'>BTTR Engages with Astanagurthy Residents during Padayatra</div>
-                     <button className='slider_button'>Read More</button>
+                     <button className='slider_button'><Link to="VillageVoices" spy={true} smooth={true}>Read More</Link></button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'>Temples 5</div> */}
+                     <img className='slider_card_img' src={students} alt="Donations at work"></img>
                      <div className='slider_card_description'>Improving Educational Standards through 200 Evening Schools</div>
-                     <button className='slider_button'>Read More</button>
+                     <button className='slider_button'><Link to="EveningSchools" spy={true} smooth={true}>Read More</Link></button>
                 </div>
                 <div className='slider_card'>
-                     <img className='slider_card_img' src={dummyImg} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'>Aawasa Bhajan Sikshana</div> */}
-                     <div className='slider_card_description'>Empowered 5000 individuals through this training</div>
-                     <button className='slider_button'>Read More</button>
+                     <img className='slider_card_img' src={empower_education} alt="Donations at work"></img>
+                     <div className='slider_card_description'>Empowering Education: 8,000 Children Thriving in Evening Schools</div>
+                     <button className='slider_button'><Link to="EmpoweringEducation" spy={true} smooth={true}>Read More</Link></button>
+                </div>
+                <div className='slider_card'>
+                     <img className='slider_card_img' src={bajana_training} alt="Donations at work"></img>
+                     <div className='slider_card_description'>Empowered 5000 individuals through this Aawasa Bhajan Sikshana</div>
+                     <button className='slider_button'><Link to="AawasaBhajanSikshana" spy={true} smooth={true}>Read More</Link></button>
                 </div>
                 <div className='slider_card'>
                     <img className='slider_card_img' src={Ancestral_faith} alt="Donations at work"></img>
-                     {/* <div className='slider_card_title'>Temples 6</div> */}
                      <div className='slider_card_description'>Embracing Ancestral Faith</div>
-                     <button className='slider_button'>Read More</button>
+                     <button className='slider_button'> <Link to="EmbracingAncesters" spy={true} smooth={true}>Read More</Link></button>
                 </div> 
             </Slider>
           </div>
@@ -156,9 +158,9 @@ export default function Accomplishments() {
     {/* Section 4 */}
 
     <div className='accPageSection4'>
-        <div className='accPageSection4Header'>Under Samarasata Sewa Foundation (SSF) Banner</div>
+        <div className='accPageSection4Header' id='SSF'>Under Samarasata Sewa Foundation (SSF) Banner</div>
         <div className='accPageSection4Heading'>1. Construction of temples  in Sc/St/fisherman villages</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             <b>Title:</b> Revitalizing Communities through Sacred Spaces/Empowering Communities through 500 New Temples<br />
             The state of S.C. in India has undertaken a remarkable initiative to empower marginalized communities by constructing
@@ -183,7 +185,7 @@ export default function Accomplishments() {
             </div>
         </div>
         <div className='accPageSection4Heading'>3. Samohika Arathi in temples on fullmoon days</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
               <b>Title:</b>Enhancing Spiritual Bonding through Samohika Arathi on Full Moon Days<br />
               The project aims to promote Samohika Arathi, a collective ritual of offering prayers and lighting lamps in temples 
@@ -208,7 +210,7 @@ export default function Accomplishments() {
         </div>
 
         <div className='accPageSection4Heading'>5. Archaka sikshana(temple priest Training)</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
               <b>Title:</b>Archaka Sikshana for Traditional Excellence<br />
               The "Archaka Sikshana" project provides comprehensive training and education for aspiring temple priests, focusing 
@@ -233,7 +235,7 @@ export default function Accomplishments() {
             </div>
         </div>
         <div className='accPageSection4Heading'>7. Door-door Stickering</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
                 <b>Title: </b>Enriching Cultural Understanding through the Campaign.<br />
                 A door-to-door campaign has been launched to celebrate tribal history, tradition, and culture. Brochures with 
@@ -247,9 +249,9 @@ export default function Accomplishments() {
 
     {/* Section 5 */}
     <div className='accPageSection4'>
-        <div className='accPageSection4Header'>Under Back To The Roots (BTTR) Banner</div>
+        <div className='accPageSection4Header' id='BTTR'>Under Back To The Roots (BTTR) Banner</div>
         <div className='accPageSection4Heading'>1. Youth Leadership Training Program (YLTP)</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
                 Eight youth participated in a 9-day Youth Leadership Training Program in Vizag, focusing on leadership, 
                 team-building, discipline, time management, and responsibility. The program facilitated personal growth and 
@@ -269,7 +271,7 @@ export default function Accomplishments() {
             </div>
         </div>
         <div className='accPageSection4Heading'>3. Supporting higher education of deserving village children and children of our  dharma pracharaks.(30 students)</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             The scholarship program supports both average and merit students, with a focus on deserving village children and 
             children of dharma pracharaks. It offers financial assistance and guidance for various academic paths, empowering 
@@ -292,7 +294,7 @@ export default function Accomplishments() {
         </div>
 
         <div className='accPageSection4Heading'>5. Donation of vigrahams in weaker section of the society</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
                 The donation of vigrahams, or idols, to the weaker sections of society is a noble initiative that brings 
                 spiritual solace and uplifts the lives of economically disadvantaged individuals. These donations foster 
@@ -303,7 +305,7 @@ export default function Accomplishments() {
             <div className='accPageImage'><img src={idolDonation} className='missionPageImages'/></div>
         </div>
         <div className='accPageSection4Heading'>6. Skills training in collaboration with SSRDP</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer '>
             <div className='accPageImage'><img src={skills_development} className='missionPageImages'/></div>
             <div className='accPageContent'>
                 Skills training in collaboration with SSRDP (Sri Sri Rural Development Program) empowers individuals in rural 
@@ -314,7 +316,7 @@ export default function Accomplishments() {
             </div>
         </div>
         <div className='accPageSection4Heading'>7. Adopt a village Program.</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
                 The "Adopt a Village" initiative aims to transform the lives of individuals in underprivileged rural communities 
                 by addressing socio-economic challenges and uplifting living standards. It encompasses various interventions 
@@ -330,8 +332,8 @@ export default function Accomplishments() {
     {/* Section 6 */}
     <div className='accPageSection4'>
         <div className='accPageSection4Header'>Key Accomplishments in the Past</div>
-        <div className='accPageSection4Heading'>1. Ayurveda Medical Camps and their Impact on Health/Ayurveda Medical Camp Benefits 25 Families:</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSection4Heading' id='AyurvedaMedical'>1. Ayurveda Medical Camps and their Impact on Health/Ayurveda Medical Camp Benefits 25 Families:</div>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             An Ayurveda medical camp was conducted, bringing valuable healthcare services to a community in need. This camp 
             served as a platform for promoting the principles of Ayurveda and providing holistic healthcare solutions to 
@@ -342,7 +344,7 @@ export default function Accomplishments() {
             </div>
             <div className='accPageImage'><img src={medical_camp} className='missionPageImages'/></div>
         </div>
-        <div className='accPageSection4Heading'>2. Development of a Village Mineral Water Plant:</div>
+        <div className='accPageSection4Heading' id='MineralWaterPlant'>2. Development of a Village Mineral Water Plant:</div>
         <div className='accPageSectionContentContainer'>
             <div className='accPageImage'><img src={mineral_water} className='missionPageImages'/></div>
             <div className='accPageContent'>
@@ -356,8 +358,8 @@ export default function Accomplishments() {
             promoting better health and well-being throughout the community.
             </div>
         </div>
-        <div className='accPageSection4Heading'>3. Building Soaking Pits in Telangana Villages</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSection4Heading' id='SoakingPits'>3. Building Soaking Pits in Telangana Villages</div>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             Inkudu Gunthalu, also known as Soaking Pits, are playing a crucial role in preserving water levels in villages.The 
             Telangana State Government has undertaken a commendable initiative to construct 140 soak pits alongside the 
@@ -371,7 +373,7 @@ export default function Accomplishments() {
             </div>
             <div className='accPageImage'><img src={soakpits} className='missionPageImages'/></div>
         </div>
-        <div className='accPageSection4Heading'>4. Volunteers Aid Hudhud Cyclone Victims</div>
+        <div className='accPageSection4Heading' id='hudhud'>4. Volunteers Aid Hudhud Cyclone Victims</div>
         <div className='accPageSectionContentContainer'>
             <div className='accPageImage'><img src={volunteer_aid} className='missionPageImages'/></div>
             <div className='accPageContent'>
@@ -387,8 +389,8 @@ export default function Accomplishments() {
             </div>
         </div>
 
-        <div className='accPageSection4Heading'>5. Village Voices Heard: BTTR Team Engages with Astanagurthy Residents during Padayatra</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSection4Heading' id='VillageVoices'>5. Village Voices Heard: BTTR Team Engages with Astanagurthy Residents during Padayatra</div>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             The Back to the Roots (BTTR) team, along with Sudhakar Garu, Chaitanya Kishore Garu, and a group of foreigners, 
             visited Astanagurthy village. They conducted a padayatra and engaged with the villagers to understand their needs. 
@@ -399,7 +401,7 @@ export default function Accomplishments() {
             </div>
             <div className='accPageImage'><img src={padayatra} className='missionPageImages'/></div>
         </div>
-        <div className='accPageSection4Heading'>6. Improving Educational Standards through 200 Evening Schools</div>
+        <div className='accPageSection4Heading' id='EveningSchools'>6. Improving Educational Standards through 200 Evening Schools</div>
         <div className='accPageSectionContentContainer'>
             <div className='accPageImage'><img src={students} className='missionPageImages'/></div>
             <div className='accPageContent'>
@@ -412,8 +414,8 @@ export default function Accomplishments() {
             poverty, and contribute to the overall development of society.
             </div>
         </div>
-        <div className='accPageSection4Heading'>7. Empowering Education: 8,000 Children Thriving in Evening Schools</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSection4Heading' id='EmpoweringEducation'>7. Empowering Education: 8,000 Children Thriving in Evening Schools</div>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             The evening schools have had a profound impact on the lives of approximately 8,000 children who attend them daily, 
             bringing happiness to their parents and caregivers. These schools have filled educational gaps and provided a safe 
@@ -425,7 +427,7 @@ export default function Accomplishments() {
             </div>
             <div className='accPageImage'><img src={empower_education} className='missionPageImages'/></div>
         </div>
-        <div className='accPageSection4Heading'>8. Empowering 5000 Individuals through Aawasa Bhajan Sikshana</div>
+        <div className='accPageSection4Heading' id='AawasaBhajanSikshana'>8. Empowering 5000 Individuals through Aawasa Bhajan Sikshana</div>
         <div className='accPageSectionContentContainer'>
             <div className='accPageImage'><img src={bajana_training} className='missionPageImages'/></div>
             <div className='accPageContent'>
@@ -437,8 +439,8 @@ export default function Accomplishments() {
              of participants and enabling them to share the joy and teachings of bhajan singing with their communities.
             </div>
         </div>
-        <div className='accPageSection4Heading'>9. Embracing Ancestral Faith</div>
-        <div className='accPageSectionContentContainer'>
+        <div className='accPageSection4Heading' id='EmbracingAncesters'>9. Embracing Ancestral Faith</div>
+        <div className='accPageSectionContentContainer revertsections'>
             <div className='accPageContent'>
             The organization SSF has implemented a vigorous Ghar Wapasi Programme, resulting in 7,000 individuals returning to 
             the Hindu fold. The initiative aims to reintegrate individuals who had previously embraced religions other than 

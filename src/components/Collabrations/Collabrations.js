@@ -26,8 +26,8 @@ export default function Collbrations() {
       {/* Section 2 */}
       <div className='collabPageSection2'>
         <div className='collabPageSectionHeading'>The Art Of Living</div>
-          <div className='collagePageSectionPart'>
-              <div className='collabPageSection2Content'>
+          <div className='collagePageSectionPart revertsections'>
+              <div className='collabPageSection2Content '>
                 <p>
                   The Art of Living Foundation is an international non-profit organization founded by Gurudev Sri Sri Ravi Shankar 
                   in 1981. It focuses on personal development, stress relief, and overall well-being. The organization's vision is to 
@@ -77,8 +77,8 @@ export default function Collbrations() {
       {/* Section 3 */}
       <div className='collabPageSection3'>
           <div className='collabPageSectionHeading'>Vedic Dharma Sansthan(VDS)</div>
-          <div className='collagePageSectionPart'>
-              <div className='collabPageSection2Content'>
+          <div className='collagePageSectionPart revertsections'>
+              <div className='collabPageSection2Content '>
                 <p>
                 The organization's main objective is to promote and propagate knowledge of Vedas, Yoga, Vedanta, Puranas, 
                 Itihasas, and Sanskrit language. It achieves this through awareness campaigns, educational materials, and 
