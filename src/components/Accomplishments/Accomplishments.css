@@ -1,5 +1,9 @@
 .accPageSection1{
     width: 100%;
+    background-image: url("../../assets/missionpageBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
 }
 .accPageBg{
     width: 100%;
@@ -9,14 +13,11 @@
     filter: brightness(.8);
 }
 .accPageHeading{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    font-size: 60px;
+    font-size: 3.5rem;
     font-family: Bold;
+    padding: 7%;
 }
 .accPageSection2{
     width: 80%;

@@ -19,7 +19,7 @@ export default function Collbrations() {
     <div>
       {/* Section 1 */}
       <div className='collabPageSection1'>
-        <img src={missionBg} className='collabPageBg' />
+        {/* <img src={missionBg} className='collabPageBg' /> */}
         <div className='collabPageHeading'>Our Collabrations</div>
       </div>
 
