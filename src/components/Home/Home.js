@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 import Carousel from './carousel/carousel'
@@ -56,21 +57,21 @@ export default function Home() {
                             <img src={AOL} className='collabration_img aol_icon'alt="AOL" />
                             <div className='collabration_content'>
                                 <div >The Art of Living Foundation is a renowned international non-profit organization founded by Gurudev Sri Sri Ravi Shankar.</div>
-                                <button className='home_button'>Read More</button>
+                                <Link to='/Collabrations' className='home_button'>Read More</Link>
                             </div>
                         </div>
                         <div className='collabration_card'>
                             <img src={SSF} className='collabration_img ssf_icon' alt="SSF" />
                             <div className='collabration_content'>
                                 <div>The Samarasata Sewa Foundation is a non-profit organization committed to promoting equality, harmony, and social justice.</div>
-                                <button className='home_button'>Read More</button>
+                                <Link to='/Collabrations' className='home_button'>Read More</Link>
                             </div>
                         </div>
                         <div className='collabration_card'>
                             <img src={OVBI} alt="OVBI" className='collabration_img ovbi_icon'  />
                             <div className='collabration_content'>
                                 <div>OVBI is an organization that aims to mobilize the Indian diaspora and stakeholders in contributing to India's development.</div>
-                                <button className='home_button'>Read More</button>
+                                <Link to='/Collabrations' className='home_button'>Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -246,7 +247,7 @@ export default function Home() {
                 {/* join us */}
                 <div className="home_section_container contact_us">
                     <div className="joinus_text">Let's change the world, Join us now!</div>
-                    <button className='home_button'>Contact Us</button>
+                    <Link to="/Contact" className='home_button'>Contact Us</Link>
                 </div>
         
                 

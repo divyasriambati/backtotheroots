@@ -59,7 +59,7 @@ export default function Accomplishments() {
     <div>
       {/* Section 1 */}
       <div className='accPageSection1'>
-        <img src={missionBg} className='accPageBg' />
+        {/* <img src={missionBg} className='accPageBg' /> */}
         <div className='accPageHeading'>Our Accomplishments</div>
       </div>
     

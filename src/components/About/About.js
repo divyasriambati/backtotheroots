@@ -20,7 +20,7 @@ function About(props) {
                     <button className='Contact_button'>Contact Us</button>
                 </div>
             </div>
-            <div className='About_flex_container'>
+            <div className='About_flex_container revertSection'>
                 <img src={BTTR_director} alt="Project Director" className="BTTR_Project_director_image"></img>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_title'>
@@ -40,7 +40,7 @@ function About(props) {
                 </div>
             </div>
             <div className="container_bg">
-                <div className='About_flex_container container_bg'>
+                <div className='About_flex_container '>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_title'>Back To The Roots</div><br></br>
                     <div className='BTTR_Project_director_description'>
@@ -59,7 +59,7 @@ function About(props) {
             </div>
             </div>
             {/* Padayatra Section */}
-            <div className='About_flex_container'>
+            <div className='About_flex_container revertSection'>
                 <img src={PADAYATRA} alt="Project Director" className="BTTR_Project_director_image"></img>
                 <div className='BTTR_Project_director_content'>
                     <div className='BTTR_Project_director_title'>

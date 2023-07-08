@@ -70,10 +70,10 @@
     
 }
 .BTTR_Project_director_image{
-    /* height:250px;
-    width: 250px; */
-    max-width: 100%;
-    height: auto;
+    height:250px;
+    width: 250px;
+    /* max-width: 100%;
+    height: auto; */
 }
 .BTTR_Project_director_title{
     font-family: Bold;
@@ -109,5 +109,8 @@
     .About_description{
         width: 80%;
         padding:0 0 0 10%
+    }
+    .revertSection{
+        flex-direction: column-reverse;
     }
 }

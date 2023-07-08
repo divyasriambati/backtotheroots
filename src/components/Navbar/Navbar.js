@@ -8,10 +8,10 @@ import youtube from '../../assets/youtube.png';
 import icon from '../../assets/RttrIcon.png';
 import menubar from '../../assets/menu.png';
 import { NavLink } from 'react-router-dom';
-import backgroundimage from '../../assets/homepg.png';
+// import backgroundimage from '../../assets/homepg.png';
 
 function Navbar(props) {
-    const [isNavExpanded, setIsNavExpanded] = useState(false)
+    // const [isNavExpanded, setIsNavExpanded] = useState(false)
     const [showNavbar, setShowNav] = useState(false)
     const handleShowNavbar = () => {
       setShowNav(!showNavbar)

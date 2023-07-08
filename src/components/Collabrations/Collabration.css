@@ -1,5 +1,9 @@
 .collabPageSection1{
     width: 100%;
+    background-image: url("../../assets/missionpageBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
 }
 .collabPageBg{
     width: 100%;
@@ -9,14 +13,11 @@
     filter: brightness(.8);
 }
 .collabPageHeading{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
     font-size: 60px;
     font-family: Bold;
+    padding: 7%;
 }
 .collabPageSection2{
     width: 80%;

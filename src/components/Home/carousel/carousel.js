@@ -2,8 +2,10 @@ import Slider from 'react-slick'
 import React from 'react';
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import { Link } from "react-router-dom";
 import './carousel.css'
+import slide1 from '../../../assets/courosel_slide1.svg'
+import slide2 from '../../../assets/courosel_slide2.svg'
+import slide3 from '../../../assets/courosel_slide3.svg'
 
 export default function Carousel() {
 
@@ -24,20 +26,17 @@ export default function Carousel() {
         
             <div className='Carousel_section'>
                 <div className='Carousel_components'>
-                    <div className='Carousel_title'>Mission & Vision</div>
-                    <div className='Carousel_description'>To solve India’s grand challenges by bringing together global thought leaders,
-                        entrepreneurs, scientists, policymakers, and grassroots leaders in India.
-                    </div>
-                    <button className="Carousel_button"><Link className='Carousel_link' to="/home"> Donate</Link> </button>
+                  <img src={slide1} alt="BTTR Vision" className="slide"></img>
                 </div>
             </div>
             <div className='Carousel_section'>
                 <div className='Carousel_components'>
-                    <div className='Carousel_title'>Mission & Vision</div>
-                    <div className='Carousel_description'>To solve India’s grand challenges by bringing together global thought leaders,
-                        entrepreneurs, scientists, policymakers, and grassroots leaders in India.
-                    </div>
-                    <button className="Carousel_button"><Link className='Carousel_link' to="/home"> Donate</Link> </button>
+                  <img src={slide2} alt="BTTR Vision" className="slide"></img>
+                </div>
+            </div>
+            <div className='Carousel_section'>
+                <div className='Carousel_components'>
+                  <img src={slide3} alt="BTTR Vision" className="slide"></img>
                 </div>
             </div>
       </Slider>
