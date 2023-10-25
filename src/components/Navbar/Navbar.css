@@ -99,13 +99,17 @@
 .donate-button{
   border-radius: 10px;
   background: #316412;
-  color:white;
+  color:#FFFFFF !important;
   width: 95px;
   height: 37px;
   font-family: "Regular";
   font-size: large;
+  padding: 10px 15px
 }
-
+.a{
+  text-decoration: none;
+  color:white !important
+}
 .navbar {
   height: 100px;
   background-color: #ffffff;

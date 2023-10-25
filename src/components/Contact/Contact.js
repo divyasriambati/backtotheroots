@@ -305,7 +305,7 @@ export default function Contact() {
       <div className='contactPageSection2'>
         <div className='contactPageSection2Image'><img src={BTTR_director} className='Image'/></div>
         <div className='contactPageSection2Content'>
-            <div className='contactPageSection2Heading'>SUDHAKAR VERAVALLI</div>
+            <div className='contactPageSection2Heading'>SUDHAKAR VEERAVALLI</div>
             <div className='contactPageContent'>Director, Back To The Roots Project<br />
                 USA: 408-373-6959 (Google Voice)<br />
                 India: +91-9533 780 640</div>

@@ -25,7 +25,7 @@ function Navbar(props) {
             <div className='nav-row-container'>
                 <div  className='nav-row-sub-container'>
                 <div className='nav-column1'>
-                    <p>Email : backtotheroots@gmail.com</p>
+                    <p>Email : BackToTheRootsProject@gmail.com</p>
                 </div>
                 <div className='nav-column2'>
                     <div className='nav-facebook'><img src={facebook}></img></div>
@@ -80,7 +80,7 @@ function Navbar(props) {
                         <NavLink to="/Contact" onClick={handleCloseNavbar}>Contact</NavLink>
                       </li>
                       <li>
-                        <button className='donate-button'>Donate</button>
+                        <a className='a donate-button' target="_blank" href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww">Donate</a>
                       </li>
                     </ul>
                   </div>
