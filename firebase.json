@@ -22,7 +22,7 @@
     "redirects": [
       {
         "source": "http://www.backtotherootsproject.org/", // Your custom domain
-        "destination": "https://back-to-the-roots-f24df.web.app/", // Firebase default domain
+        "destination": "/index.html", // Firebase default domain
         "type": 301
       }
     ]
