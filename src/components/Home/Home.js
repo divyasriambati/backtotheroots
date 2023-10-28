@@ -13,9 +13,6 @@ import maintain_demography from '../../assets/maintain_demography.jpg'
 import AOL from '../../assets/AOL_icon.png'
 import OVBI from '../../assets/OVBI_icon.png'
 import SSF from '../../assets/SSF_icon.png'
-import supporter1 from '../../assets/supporter1.png'
-import supporter2 from '../../assets/supporter2.png'
-import supporter3 from '../../assets/supporter3.png'
 
 export default function Home() {
   const sliderSettings = {
@@ -79,11 +76,11 @@ export default function Home() {
             <div className="collabration_card">
               <img src={OVBI} alt="OVBI" className="collabration_img ovbi_icon" />
               <div className="collabration_content">
-                <div>
+                <div className="text">
                   OVBI is an organization that aims to mobilize the Indian diaspora and stakeholders in contributing to
                   India's development.
                 </div>
-                <Link to="/Collabrations" className="home_button">
+                <Link to="/Collabrations" className="cardBtn">
                   Read More
                 </Link>
               </div>
@@ -200,33 +197,61 @@ export default function Home() {
         {/* Projects */}
         <div className="home_section_container">
           <div className="home_section_container_title">Our Projects</div>
-          <div className="home_section_container_description">
+          {/* <div className="home_section_container_description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore
             magna aliqua. Ut enim ad minim
-          </div>
+          </div> */}
           <div className="card_collection">
             <div className="home_card">
               <img className="home_card_img" src={maintain_demography} alt="Vision"></img>
               <div className="home_card_title">Culture, Family Values, Community</div>
               {/* <div className='home_card_description'>Build school for childrens</div> */}
-              <button className="home_button">Donate Now</button>
+              <button className="home_button">
+                {' '}
+                <a
+                  className="a donate-button"
+                  target="_blank"
+                  href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww"
+                  rel="noreferrer"
+                >
+                  Donate Now
+                </a>
+              </button>
             </div>
             <div className="home_card">
               <img className="home_card_img" src={health_hygeine} alt="Donations at work"></img>
               <div className="home_card_title">Health and Hygiene</div>
               {/* <div className='home_card_description'>Build temples in villages</div> */}
-              <button className="home_button">Donate Now</button>
+              <button className="home_button">
+                <a
+                  className="a donate-button"
+                  target="_blank"
+                  href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww"
+                  rel="noreferrer"
+                >
+                  Donate Now
+                </a>
+              </button>
             </div>
             <div className="home_card">
               <img className="home_card_img" src={BTTR_YLTP3} alt="Facebook"></img>
               <div className="home_card_title">Empowerment and Skills Training</div>
               {/* <div className='home_card_description'>need description</div> */}
-              <button className="home_button">Donate Now</button>
+              <button className="home_button">
+                <a
+                  className="a donate-button"
+                  target="_blank"
+                  href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww"
+                  rel="noreferrer"
+                >
+                  Donate Now
+                </a>
+              </button>
             </div>
           </div>
         </div>
         {/* Supporters */}
-        <div className="home_section_container home_supporters">
+        {/* <div className="home_section_container home_supporters">
           <div className="home_section_container_title">Supporters</div>
           <div className="home_section_container_description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore
@@ -259,11 +284,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* join us */}
         <div className="home_section_container contact_us">
           <div className="joinus_text">Let's change the world, Join us now!</div>
-          <Link to="/Contact" className="home_button">
+          <Link to="/Contact" className="home_button contactBtn">
             Contact Us
           </Link>
         </div>

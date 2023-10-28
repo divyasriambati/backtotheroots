@@ -1,215 +1,235 @@
-
-.home_section{
-    margin:0px;
-    overflow: hidden !important;
-    font-family: Regular;
-    line-height: 30px;
-    color: black;
-    font-size: 16px;
+.home_section {
+  margin: 0px;
+  overflow: hidden !important;
+  font-family: Regular;
+  line-height: 30px;
+  color: black;
+  font-size: 16px;
 }
 .home_section_container {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0px
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px;
 }
-.home_section_container_title{
-    color: #316412;
-    font-size: 28px;
-    margin-top:5px;
-    font-family:bold;
+.home_section_container_title {
+  color: #316412;
+  font-size: 28px;
+  margin-top: 5px;
+  font-family: bold;
 }
 .home_section_container_description {
-    font-family: Regular;
-    margin: 5px auto;
-    width: 70vw;
-    font-size: 18px;
+  font-family: Regular;
+  margin: 5px auto;
+  width: 70vw;
+  font-size: 18px;
 }
 .card_collection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: space-evenly;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
-.home_card{
-    background-color: #F5F5F5;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px ;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    margin: 10px;
-    text-align: left;
+.home_card {
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
 }
-.home_card_img{
-    width: 100%;
-    height: 180px;
+.home_card_img {
+  width: 100%;
+  height: 180px;
 }
-.home_card_title{
-    font-family: Bold;
-    color:#45841F;
-    font-size:16px;
+.home_card_title {
+  font-family: Bold;
+  color: #45841f;
+  font-size: 16px;
+  text-align: center;
 }
 .home_card_description {
-    font-family: Medium;
-    color: black;
-    font-size: 18px;
+  font-family: Medium;
+  color: black;
+  font-size: 18px;
+  text-align: center;
 }
 .home_button {
-    border: none;
-    background-color: #316412;
-    color: #fff;
-    padding: 10px 15px;
-    margin-top: 5px;
-    font-size: 16px;
-    font-family: "SemiBold";
-    border-radius: 10px;
-    text-decoration: none;
+  border: none;
+  background-color: #316412;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'SemiBold';
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 65px;
 }
-.home_supporters{
-    background-color: #E5E5E5;
+.cardBtn {
+  border: none;
+  background-color: #316412;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: 'SemiBold';
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 65px;
+  margin-top: 20px !important;
 }
-.container_title{
-    font-family: Bold;
-    font-size: 32px;
+.home_supporters {
+  background-color: #e5e5e5;
 }
-
-.supporter_card{
-    background-color: #FEFEFE;
-    border: 1px solid #CCC9C9;
-    border-radius: 5px;
-    width: 250px;
-    height: auto;
-    padding: 15px;
-    text-align: center;
-    margin: 10px;
-}
-.supporter_card_img{
-    width: 100px;
-    height: 100px;
-}
-.supporter_card_title{
-    font-family: bold;
-    font-size: 22px;
-    margin: 10px auto;
-}
-.supporter_card_description{
-    font-family:Regular
-}
-.vision_collection{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.vision_card{
-    width: 300px;
-    height: 35px;
-    margin: 20px;
-    border: 2px solid #45841F;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-family: Medium;
-    padding: 15px 10px;
-}
-@media (max-width:767px) {
-    .vision_card{
-        height: 7vh;
-    }
-    
-}
-.contact_us{
-    width:80vw;
-    margin: 20px auto;
-}
-.joinus_text{
-    color: black;
-    font-family: Bold;
-    font-size: 28px;
-    width: 80vw;
-    margin: 10px auto;
-}
-.collabration_card{
-    border: 2px solid #45841F;
-    border-radius: 10px;
-    width: 330px;
-    height: auto;
-    padding: 50px auto;
-    text-align: center;
-    margin: 0px 10px 10px;
-}
-.collabration_img{
-    width:180px;
-    height: 80px;
-}
-.collabration_content{
-    width:85%;
-    text-align: center;
-    margin:10px auto 20px;
-
-}
-.aol_icon{
-    margin-top:10px;
-    width:220px;
-    height:130px    
-}
-.ssf_icon{
-    width: 230px;
-     height: 133px
-}
-.ovbi_icon{
-    width: 200px;
-    height: 126px;
+.container_title {
+  font-family: Bold;
+  font-size: 32px;
 }
 
-.mission_container{
-    width: 80%;
-    margin:0px auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    margin-top: 10px;
+.supporter_card {
+  background-color: #fefefe;
+  border: 1px solid #ccc9c9;
+  border-radius: 5px;
+  width: 250px;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
 }
-.mission_section1{
-    text-align:left;
-    line-height: 30px;
+.supporter_card_img {
+  width: 100px;
+  height: 100px;
 }
-.mission_img{
-    width: 250px;
-    height:200px;
+.supporter_card_title {
+  font-family: bold;
+  font-size: 22px;
+  margin: 10px auto;
 }
-.home_achievements{
-    background-image: url(../../assets/home_achivements.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.supporter_card_description {
+  font-family: Regular;
 }
-.achievement_card{
-    width:220px;
-    height: 175px;
-    border:2px solid white;
-    margin:10px;
-    text-align:center;
-    color:#fff;
-    border-radius: 5px;
+.vision_collection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.achievement_card_number{
-    font-family: Bold;
-    font-size: 24px;
-    padding: auto;
-    line-height: 50px;
+.vision_card {
+  width: 300px;
+  height: 35px;
+  margin: 20px;
+  border: 2px solid #45841f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: Medium;
+  padding: 15px 10px;
 }
-.achievement_card_description{
-    font-family:Medium;
+@media (max-width: 767px) {
+  .vision_card {
+    height: 7vh;
+  }
 }
-.home_achievements_content{
-    width: 80%;
-    margin: 0 auto;
+.contact_us {
+  width: 80vw;
+  margin: 20px auto;
 }
-.achievement_card_content{
-    width: 90%;
-    margin: 40px auto;
+.joinus_text {
+  color: black;
+  font-family: Bold;
+  font-size: 28px;
+  width: 80vw;
+  margin: 10px auto;
+}
+.collabration_card {
+  border: 2px solid #45841f;
+  border-radius: 10px;
+  width: 330px;
+  height: auto;
+  padding: 50px auto;
+  text-align: center;
+  margin: 0px 10px 10px;
+}
+.collabration_img {
+  width: 180px;
+  height: 80px;
+}
+.collabration_content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 0% 5%;
+}
+.text{
+    text-align:center
+}
+.aol_icon {
+  margin-top: 10px;
+  width: 220px;
+  height: 130px;
+}
+.ssf_icon {
+  width: 230px;
+  height: 133px;
+}
+.ovbi_icon {
+  width: 200px;
+  height: 126px;
+}
 
+.mission_container {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.mission_section1 {
+  text-align: left;
+  line-height: 30px;
+}
+.mission_img {
+  width: 250px;
+  height: 200px;
+}
+.home_achievements {
+  background-image: url(../../assets/home_achivements.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.achievement_card {
+  width: 220px;
+  height: 175px;
+  border: 2px solid white;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+.achievement_card_number {
+  font-family: Bold;
+  font-size: 24px;
+  padding: auto;
+  line-height: 50px;
+}
+.achievement_card_description {
+  font-family: Medium;
+}
+.home_achievements_content {
+  width: 80%;
+  margin: 0 auto;
+}
+.achievement_card_content {
+  width: 90%;
+  margin: 40px auto;
 }
