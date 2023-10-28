@@ -96,11 +96,12 @@ export default function Home() {
           <div className="mission_container">
             <div className="mission_section1">
               To invest in capacity building and technology to strengthen India’s rural economy by
-              <li>Restoring riverine ecosystems</li>
-              <li>Reversing desertification</li>
-              <li>Building a micro-entrepreneurship and startup ecosystem</li>
-              <li>Educating rural leaders in good governance</li>
-              <li>Forging mutually beneficial alliances with US-based institutions to accelerate impact</li>
+              <li>Maintaining Demographics</li>
+              <li>Healthy Living</li>
+              <li>Reinforcing Family Ethics</li>
+              <li>Preserving Sanatana Dharma</li>
+              <li>Temples for Comprehensive Growth</li>
+              <li>Capacity Building</li>
             </div>
             <div className="mission_section2">
               <img className="mission_img" src={mission} alt="mission"></img>
@@ -112,22 +113,22 @@ export default function Home() {
           <div className="home_section_container_title">Our Vision</div>
           <div className="card_collection">
             <div className="vision_card">
-              <div className="vision_card_description">Preserving cultural heritage</div>
+              <div className="vision_card_description">Healthy Living</div>
             </div>
             <div className="vision_card">
-              <div className="vision_card_description">Economic Upliftment</div>
+              <div className="vision_card_description">Reinforcing Family Ethics</div>
             </div>
             <div className="vision_card">
-              <div className="vision_card_description">Health, Hygiene, Family Values</div>
+              <div className="vision_card_description">Maintaining Demographics</div>
             </div>
             <div className="vision_card">
-              <div className="vision_card_description"> Integrated Village Development</div>
+              <div className="vision_card_description"> Preserving Sanatana Dharma</div>
             </div>
             <div className="vision_card">
-              <div className="vision_card_description"> Youth Leadership Training Program</div>
+              <div className="vision_card_description">Temples for Comprehensive Growth</div>
             </div>
             <div className="vision_card">
-              <div className="vision_card_description">Community Centers</div>
+              <div className="vision_card_description">Capacity Building</div>
             </div>
           </div>
         </div>
