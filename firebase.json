@@ -27,7 +27,7 @@
     "redirects": [  // Add custom domain to redirects
       {
         "source": "backtotherootsproject.org",  // Your custom domain
-        "destination": "https://back-to-the-roots-f24df.web.app",  // Firebase default domain
+        "destination": "back-to-the-roots-f24df.web.app",  // Firebase default domain
         "type": 301
       }
     ]
