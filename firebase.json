@@ -18,13 +18,6 @@
           }
         ]
       }
-    ],
-    "redirects": [
-      {
-        "source": "http://www.backtotherootsproject.org/", // Your custom domain
-        "destination": "/index.html", // Firebase default domain
-        "type": 301
-      }
     ]
   }
 }
