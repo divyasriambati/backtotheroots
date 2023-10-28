@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "Back to the Roots",  // Optional if you have multiple sites
+    // "site": "Back to the Roots",  // Optional if you have multiple sites
     "public": "public",        // Change this to your public directory
     "ignore": [
       "firebase.json",
