@@ -74,13 +74,13 @@ export default function Gallery() {
     const tab4 = [BTTR_YLTP1,BTTR_YLTP2,BTTR_YLTP3,BTTR_YLTP4,BTTR_YLTP5,BTTR_YLTP6,BTTR_YLTP7,BTTR_YLTP8,BTTR_YLTP9,BTTR_YLTP10]
     const tab5 = [BTTR_SA1,BTTR_SA2,BTTR_SA3,BTTR_SA4,BTTR_SA5,BTTR_SA6,BTTR_SA7,BTTR_SA8,BTTR_SA9,BTTR_SA10,BTTR_SA11,BTTR_SA12,BTTR_SA13,BTTR_SA14]
     const [tabData, setTabData] = useState({
-      title: "celebrities",
+      title: "Social Leaders",
       images: tab1
     });
     const tabsData = [
       {
         tabnumbers: 1,
-        title: "celebrities",
+        title: "Social Leaders",
         images: tab1
       },
       {

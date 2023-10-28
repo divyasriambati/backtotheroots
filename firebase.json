@@ -1,10 +1,36 @@
 {
   "hosting": {
-    "public": "build",
+    "site": "Back to the Roots",  // Optional if you have multiple sites
+    "public": "public",        // Change this to your public directory
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [  // Add these headers
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-store"
+          }
+        ]
+      }
+    ],
+    "redirects": [  // Add custom domain to redirects
+      {
+        "source": "backtotherootsproject.org",  // Your custom domain
+        "destination": "https://back-to-the-roots-f24df.web.app",  // Firebase default domain
+        "type": 301
+      }
     ]
   }
+  
 }

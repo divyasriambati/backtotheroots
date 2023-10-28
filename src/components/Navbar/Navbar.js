@@ -6,6 +6,7 @@ import instagram from '../../assets/instagram.png';
 import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.png';
 import icon from '../../assets/RttrIcon.png';
+import logo from '../../assets/logo.jpg'
 import menubar from '../../assets/menu.png';
 import { NavLink } from 'react-router-dom';
 // import backgroundimage from '../../assets/homepg.png';
@@ -41,14 +42,14 @@ function Navbar(props) {
                   <div className="logo">
                     <div className='nav-icon-container'>
                     <div className='nav-icon-column1'>
-                         <img src={icon} ></img>
+                         <img src={logo} className='logoIcon'></img>
                     </div>
                     <div className='nav-icon-column2'>
                         <div className='bttr-text'>
                             Back To The Roots
                         </div>
                         <div className='adopt-a-village-text'>
-                            ADOPT A VILLAGE
+                        Reconnecting with Indian Heritage
                         </div>
                     </div>
                 </div>
