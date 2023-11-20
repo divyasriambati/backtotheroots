@@ -27,18 +27,39 @@ export default function Home() {
     initialSlide: 1,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 1049,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 3
         }
       },
       {
         breakpoint: 780,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
         }
       }
     ]
+  }
+  const achievement ={
+    "Temples Constructed (SC/ST/Fisherman)": "822",
+    "Archaka Shikshana": "822",
+    "Temple Based Bala Vikas Kendras": "320",
+    "Trees Planted": "48,000+",
+    "Vigrahas (Idols) Donated": "102+",
+    "Zero Budget Chemical Free Farming Workshops (ZBNF)": "100+",
+    "Villages reached out to": "9600+",
+    "Pada Yatras in villages": "1300+",
+    "Toilets Constructed": "650", "Inspired": "1000+",
+    "Youth Leadership Training Program (YLTP)": "5000+",
+    "Dharma Pracharaks": "400+",
+    "Mahila Pracharaks": "320+",
+    "Volunteer Team Size": "99,000"
   }
   return (
     <div>
@@ -132,66 +153,14 @@ export default function Home() {
         {/* achievements */}
         <div className="home_section_container home_achievements">
           <Slider {...sliderSettings} className="home_achievements_content">
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">9600+</div>
-                <div className="achievement_card_description">Villages Visited</div>
+            {Object.entries(achievement).map(([description, number]) => (
+              <div className="achievement_card" key={description}>
+                <div className="achievement_card_content">
+                  <div className="achievement_card_number">{number}</div>
+                  <div className="achievement_card_description">{description}</div>
+                </div>
               </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">16000+</div>
-                <div className="achievement_card_description">Trees Planted</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">820+</div>
-                <div className="achievement_card_description">Temples Constructed</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">659+</div>
-                <div className="achievement_card_description">Toilets Constructed</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">108+</div>
-                <div className="achievement_card_description">Idols Donated</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">500+</div>
-                <div className="achievement_card_description">YLTP Trained</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">400+</div>
-                <div className="achievement_card_description">Dharma pracharaks</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">822+</div>
-                <div className="achievement_card_description">Archakas</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">154+</div>
-                <div className="achievement_card_description">Temple Based Bala Vikas Kendras</div>
-              </div>
-            </div>
-            <div className="achievement_card">
-              <div className="achievement_card_content">
-                <div className="achievement_card_number">20+</div>
-                <div className="achievement_card_description">Zero Budget chemical Free Farming workshops</div>
-              </div>
-            </div>
+            ))}
           </Slider>
         </div>
         {/* Projects */}
