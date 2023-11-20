@@ -97,6 +97,11 @@ function Navbar(props) {
                 </NavLink>
               </li>
               <li>
+                <NavLink className="donate-button" to="/Donate" onClick={handleCloseNavbar}>
+                  Donate
+                </NavLink>
+              </li>
+              {/* <li>
                 <a
                   className="a donate-button"
                   target="_blank"
@@ -105,7 +110,7 @@ function Navbar(props) {
                 >
                   Donate
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
