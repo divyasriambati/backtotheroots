@@ -50,8 +50,8 @@
     font-size: medium;
     width: 100%;
   }
-  .nav-column1-heading{
-    display:none
+  .nav-column1-heading {
+    display: none;
   }
   .nav-column2 {
     width: 60%;
@@ -134,7 +134,16 @@
   height: 100%;
   font-size: 26px;
 }
-
+.donate-button {
+  border: none;
+  border-radius: 10px;
+  background: #316412;
+  color: #ffffff !important;
+  font-family: 'Regular';
+  font-size: large;
+  padding: 10px 15px;
+  margin: 10px;
+}
 
 .menu-icon {
   display: none;
@@ -156,8 +165,8 @@
 
 .nav-elements ul a {
   font-size: 18px;
-  font-weight: 400;
-  font-family: bold;
+  font-weight: 300;
+  font-family: Regular;
   color: #2f234f;
   text-decoration: none;
 }
@@ -177,9 +186,9 @@
   height: 2px;
   background-color: #316412;
 }
-.mobile-navbar{
+.mobile-navbar {
   width: 50% !important;
-  margin: 0px auto 10px ;
+  margin: 0px auto 10px;
   text-align: center !important;
 }
 
@@ -215,15 +224,14 @@
     margin-right: unset;
     margin-top: 22px;
   }
-  .mobile-navbar{
-
+  .mobile-navbar {
   }
 }
 @media (max-width: 426px) {
   .bttr-text {
     font-size: 1.1rem;
   }
-  .adopt-a-village-text{
+  .adopt-a-village-text {
     font-size: small;
   }
 }
