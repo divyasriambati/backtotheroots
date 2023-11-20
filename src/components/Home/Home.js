@@ -56,7 +56,7 @@ export default function Home() {
                   The Art of Living Foundation is a renowned international non-profit organization founded by Gurudev
                   Sri Sri Ravi Shankar.
                 </div>
-                <Link to="/Collabrations" className="home_button">
+                <Link to="/Collabrations" className="cardBtn">
                   Read More
                 </Link>
               </div>
@@ -68,7 +68,7 @@ export default function Home() {
                   The Samarasata Sewa Foundation is a non-profit organization committed to promoting equality, harmony,
                   and social justice.
                 </div>
-                <Link to="/Collabrations" className="home_button">
+                <Link to="/Collabrations" className="cardBtn">
                   Read More
                 </Link>
               </div>

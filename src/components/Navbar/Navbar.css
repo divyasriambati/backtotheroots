@@ -27,8 +27,9 @@
 .nav-column2 {
   display: flex;
   align-items: center;
-  width: 20%;
+  width: 13%;
   flex-direction: row;
+  margin: 10px;
   /* column-gap: 30%; */
   justify-content: space-around;
 }
@@ -45,10 +46,14 @@
   }
   .nav-column1 {
     text-align: center;
+    font-size: medium;
     width: 100%;
   }
+  .nav-column1-heading{
+    display:none
+  }
   .nav-column2 {
-    column-gap: 10%;
+    width: 60%;
     justify-content: center;
   }
 }
@@ -83,7 +88,7 @@
 }
 .bttr-text {
   color: #316412;
-  font-size: 1.5rem;
+  font-size: 1.5 rem;
   font-family: Bold;
 }
 .logoIcon {
@@ -98,22 +103,23 @@
   font-weight: 700;
   margin-top: 10px;
 }
-.donate-button {
+.home-donate-button {
   border-radius: 10px;
-  background: #316412;
-  color: #ffffff !important;
-  width: 95px;
-  height: 37px;
-  font-family: 'Regular';
+  background: #ffff;
+  color: #316412 !important;
+  font-family: 'bold';
+  text-decoration: none;
   font-size: large;
   padding: 10px 15px;
+  width: 100%;
+  text-align: center;
 }
 .a {
   text-decoration: none;
   color: white !important;
 }
 .navbar {
-  height: 100px;
+  height: auto;
   background-color: #ffffff;
   position: relative;
   width: 100%;
@@ -126,11 +132,8 @@
   align-items: center;
   height: 100%;
   font-size: 26px;
-  font-family: Regular;
 }
 
-.logo {
-}
 
 .menu-icon {
   display: none;
@@ -151,8 +154,9 @@
 }
 
 .nav-elements ul a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
+  font-family: bold;
   color: #2f234f;
   text-decoration: none;
 }
@@ -171,6 +175,11 @@
   width: 100%;
   height: 2px;
   background-color: #316412;
+}
+.mobile-navbar{
+  width: 50% !important;
+  margin: 0px auto 10px ;
+  text-align: center !important;
 }
 
 @media (max-width: 1024px) {
@@ -205,9 +214,15 @@
     margin-right: unset;
     margin-top: 22px;
   }
+  .mobile-navbar{
+
+  }
 }
-@media (max-width: 374px) {
+@media (max-width: 426px) {
   .bttr-text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+  .adopt-a-village-text{
+    font-size: small;
   }
 }

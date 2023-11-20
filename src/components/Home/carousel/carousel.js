@@ -1,45 +1,70 @@
-import Slider from 'react-slick'
-import React from 'react';
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import './carousel.css'
-import slide1 from '../../../assets/courosel_slide1.svg'
-import slide2 from '../../../assets/courosel_slide2.svg'
-import slide3 from '../../../assets/courosel_slide3.svg'
+import React, { useState, useEffect } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './carousel.css';
+import slide1 from '../../../assets/courosel_slide1.svg';
+import slide2 from '../../../assets/courosel_slide2.svg';
+import slide3 from '../../../assets/courosel_slide3.svg';
 
 export default function Carousel() {
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const imageSources = [slide1, slide2, slide3]; // array of image sources
+
+  useEffect(() => {
+    let loadedImages = 0;
+    imageSources.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = () => {
+        loadedImages++;
+        if (loadedImages === imageSources.length) {
+          setImagesLoaded(true);
+        }
+      };
+    });
+  }, []); // Empty dependency array ensures this effect runs only once
 
   const sliderSettings = {
-      dots: true,
-      lazyLoad: true,
-      infinite: true,
-      speed: 200,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      initialSlide: 1
-    };
+    dots: true,
+    infinite: true,
+    speed: 200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    initialSlide: 3
+  };
+
+  if (!imagesLoaded) {
+    return  <div className="spinner"></div>;; // Or any other loading indicator
+  }
+  const handleDonateClick = () => {
+    // Redirect to the donation page
+    window.open('https://donate.stripe.com/8wM8yEgQDe4x5mE8ww', '_blank')
+  };
 
   return (
     <div>
       <Slider {...sliderSettings}>
         
-            <div className='Carousel_section'>
-                <div className='Carousel_components'>
-                  <img src={slide1} alt="BTTR Vision" className="slide"></img>
-                </div>
+        <div className='Carousel_section'>
+          <div className='Carousel_components'>
+            {/* Assuming slide1 is the image you showed us with the Donate text */}
+            <img src={slide1} alt="BTTR Vision" className="slide"></img>
+            {/* Donate button or text */}
+            <button onClick={handleDonateClick} className="carousel-donate-button">
+              Donate
+            </button>
+          </div>
+        </div>
+        {imageSources.slice(1,3).map((src, index) => (
+          <div key={index} className='Carousel_section'>
+            <div className='Carousel_components'>
+              <img src={src} alt="BTTR Vision" className="slide" />
             </div>
-            <div className='Carousel_section'>
-                <div className='Carousel_components'>
-                  <img src={slide2} alt="BTTR Vision" className="slide"></img>
-                </div>
-            </div>
-            <div className='Carousel_section'>
-                <div className='Carousel_components'>
-                  <img src={slide3} alt="BTTR Vision" className="slide"></img>
-                </div>
-            </div>
+          </div>
+        ))}
       </Slider>
     </div>
-  )
+  );
 }
