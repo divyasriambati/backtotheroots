@@ -14,6 +14,7 @@ import Accomplishments from './components/Accomplishments/Accomplishments'
 import Mission from './components/Mission/Mission';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
+import Donate from './components/Donate/Donate';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route exact path="/Collabrations" element={<Collabrations/>}/>
             <Route exact path="/Accomplishments" element={<Accomplishments/>}/>  
             <Route exact path="/Contact" element={<Contact/>}/> 
+            <Route exact path="/Donate" element={<Donate/>}/> 
         </Routes>
         <Footer/>
       </div>

@@ -1,0 +1,44 @@
+.donateButton {
+  border: none;
+  border-radius: 10px;
+  background: #316412;
+  color: #ffffff;
+  font-family: 'Regular';
+  font-size: large;
+  padding: 10px 15px;
+  margin: 10px;
+}
+.donateSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 98%;
+  height: auto;
+  max-width: 700px;
+  min-height: 50vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.listItems{
+  font-size: 16px;
+  font-weight: 400;
+  color: #316412;
+  border: 1px solid #316412;
+  text-decoration: none;
+  border-radius:10px;
+  width: fit-content;
+  padding:10px 20px;
+  margin:10px;
+}
+.listItemContainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  max-width:80%;
+  margin:auto;
+}
+.subHeader{
+  text-align:center
+}
