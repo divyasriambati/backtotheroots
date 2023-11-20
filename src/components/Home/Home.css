@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%;
+  width: 76%;
   justify-content: space-evenly;
   margin: 0 auto;
 }
@@ -80,7 +80,8 @@
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
-  margin-left: 65px;
+  margin: 0 auto;
+  width: 165px;
   margin-top: 20px !important;
 }
 .home_supporters {
@@ -171,17 +172,16 @@
     text-align:center
 }
 .aol_icon {
-  margin-top: 10px;
   width: 220px;
   height: 130px;
 }
 .ssf_icon {
   width: 230px;
-  height: 133px;
+  height: 130px;
 }
 .ovbi_icon {
   width: 200px;
-  height: 126px;
+  height: 130px;
 }
 
 .mission_container {

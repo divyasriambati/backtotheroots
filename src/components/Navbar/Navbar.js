@@ -7,10 +7,8 @@ import menubar from '../../assets/menu.png'
 import twitter from '../../assets/twitter.png'
 import youtube from '../../assets/youtube.png'
 import './Navbar.css'
-// import backgroundimage from '../../assets/homepg.png';
 
 function Navbar(props) {
-  // const [isNavExpanded, setIsNavExpanded] = useState(false)
   const [showNavbar, setShowNav] = useState(false)
   const handleShowNavbar = () => {
     setShowNav(!showNavbar)
@@ -24,21 +22,24 @@ function Navbar(props) {
       <div className="nav-row-container">
         <div className="nav-row-sub-container">
           <div className="nav-column1">
-            <p>Email : BackToTheRootsProject@gmail.com</p>
+            <p><span className="nav-column1-heading">Email :</span> BackToTheRootsProject@gmail.com</p>
           </div>
           <div className="nav-column2">
-            <div className="nav-facebook">
-              <img src={facebook}></img>
+            <a className=" home-donate-button" target="_blank" href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww" rel="noreferrer">
+           Donate
+        </a>
+            {/* <div className="nav-facebook">
+              <img src={facebook} alt="Facebook"></img>
             </div>
             <div className="nav-twitter">
-              <img src={twitter}></img>
+              <img src={twitter} alt="Twitter"></img>
             </div>
             <div className="nav-youtube">
-              <img src={youtube}></img>
+              <img src={youtube} alt="YouTube"></img>
             </div>
             <div className="nav-instagram">
-              <img src={instagram}></img>
-            </div>
+              <img src={instagram} alt="Instagram"></img>
+            </div> */}
           </div>
         </div>
       </div>
@@ -48,7 +49,7 @@ function Navbar(props) {
           <div className="logo">
             <div className="nav-icon-container">
               <div className="nav-icon-column1">
-                <img src={logo} className="logoIcon"></img>
+                <img src={logo} className="logoIcon" alt="logo"></img>
               </div>
               <div className="nav-icon-column2">
                 <div className="bttr-text">Back To The Roots</div>
@@ -57,7 +58,7 @@ function Navbar(props) {
             </div>
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
-            <img src={menubar} className="menuicon"></img>
+            <img src={menubar} className="menuicon" alt="menuicon"></img>
           </div>
           <div className={`nav-elements  ${showNavbar && 'active'}`}>
             <ul>
@@ -67,12 +68,12 @@ function Navbar(props) {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" onClick={handleCloseNavbar}>
+                <NavLink to="/About" onClick={handleCloseNavbar}>
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/mission" onClick={handleCloseNavbar}>
+                <NavLink to="/Mission" onClick={handleCloseNavbar}>
                   Mission
                 </NavLink>
               </li>
@@ -114,6 +115,8 @@ function Navbar(props) {
             </ul>
           </div>
         </div>
+        
+        
       </nav>
     </div>
   )
