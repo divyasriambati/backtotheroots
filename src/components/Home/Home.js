@@ -35,13 +35,17 @@ export default function Home() {
       {
         breakpoint: 780,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 2,
+          dots:false,
+          arrows:true
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          dots:false,
+          arrows:true
         }
       }
     ]
@@ -175,47 +179,19 @@ export default function Home() {
               <img className="home_card_img" src={maintain_demography} alt="Vision"></img>
               <div className="home_card_title">Culture, Family Values, Community</div>
               {/* <div className='home_card_description'>Build school for childrens</div> */}
-              <button className="home_button">
-                {' '}
-                <a
-                  className="a donate-button"
-                  target="_blank"
-                  href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww"
-                  rel="noreferrer"
-                >
-                  Donate Now
-                </a>
-              </button>
+              <Link to="/Donate"className="home_button">Donate Now</Link>
             </div>
             <div className="home_card">
               <img className="home_card_img" src={health_hygeine} alt="Donations at work"></img>
               <div className="home_card_title">Health and Hygiene</div>
               {/* <div className='home_card_description'>Build temples in villages</div> */}
-              <button className="home_button">
-                <a
-                  className="a donate-button"
-                  target="_blank"
-                  href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww"
-                  rel="noreferrer"
-                >
-                  Donate Now
-                </a>
-              </button>
+              <Link to="/Donate"className="home_button">Donate Now</Link>
             </div>
             <div className="home_card">
               <img className="home_card_img" src={BTTR_YLTP3} alt="Facebook"></img>
               <div className="home_card_title">Empowerment and Skills Training</div>
               {/* <div className='home_card_description'>need description</div> */}
-              <button className="home_button">
-                <a
-                  className="a donate-button"
-                  target="_blank"
-                  href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww"
-                  rel="noreferrer"
-                >
-                  Donate Now
-                </a>
-              </button>
+              <Link to="/Donate"className="home_button">Donate Now</Link>
             </div>
           </div>
         </div>

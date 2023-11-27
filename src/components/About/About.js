@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css'
+import { Link } from 'react-router-dom'
 import BTTR from '../../assets/homecard1.png'
 import BTTR_director from '../../assets/BTTR_director.png'
 import about_accomplishment from '../../assets/about_accomplishment.png'
@@ -17,7 +18,7 @@ function About(props) {
                      and hygiene in many villages.
                     </div>
                     <br></br>
-                    <button className='Contact_button'>Contact Us</button>
+                    <Link to="/Contact" className='Contact_button'>Contact Us</Link>
                 </div>
             </div>
             <div className='About_flex_container revertSection'>

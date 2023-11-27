@@ -20,7 +20,7 @@ function Mission(props) {
                         entrepreneurs, scientists, policymakers, and grassroots leaders in India.
                     </div>
                     <br></br>
-                    <button className='Contact_button'>Contact Us</button>
+                    <Link to="/Contact"className='Contact_button'>Contact Us</Link>
                 </div>
             </div>
         {/* section2 */}

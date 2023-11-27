@@ -63,24 +63,26 @@
     padding: 0.7rem 1.2rem;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 800px) {
+@media screen and (max-width: 1200px) and (min-width: 900px) {
   .carousel-donate-button {
     font-size: 1.2rem;
     padding: 0.6rem 1rem;
   }
 }
-@media screen and (max-width: 800px) and (min-width: 500px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
   .carousel-donate-button {
     font-size: 0.7rem;
     padding: 0.4rem 0.7rem;
     border-radius: 5px;
+    line-height: 1.1rem
   }
 }
-@media screen and (max-width: 500px) and (min-width: 400px) {
+@media screen and (max-width: 600px) and (min-width: 400px) {
   .carousel-donate-button {
     font-size: 0.5rem;
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
+    line-height: 0.7rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -88,6 +90,7 @@
     font-size: 0.4rem;
     padding: 0.2rem 0.3rem;
     border-radius: 3px;
+    line-height: 0.6rem;
   }
 }
 /* .Carousel_components{

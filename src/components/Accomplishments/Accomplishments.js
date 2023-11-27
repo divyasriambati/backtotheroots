@@ -66,8 +66,8 @@ export default function Accomplishments() {
     {/* Section 2 */}
     <div className='accPageSection2'>
         <div className='accPageSectionHeading'>Current Projects</div>
-        <div className='accPageSectionContent'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore 
-          magna aliqua. Ut enim ad minim</div>
+        {/* <div className='accPageSectionContent'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore 
+          magna aliqua. Ut enim ad minim</div> */}
         <div className='accPageSection2Container'>
             <div className='accPageSection2Card'>
                 <div className='accPageSection2CardHeading'>Under Samarasata Sewa Foundation (SSF) Banner</div>
@@ -102,8 +102,8 @@ export default function Accomplishments() {
 
     <div className='accPageSection3'>
         <div className='accPageSectionHeading'>Key Accomplishments in the Past</div>
-        <div className='accPageSectionContent'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore 
-          magna aliqua. Ut enim ad minim</div>
+        {/* <div className='accPageSectionContent'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore 
+          magna aliqua. Ut enim ad minim</div> */}
           <div>
             <Slider {...sliderSettings}>
                 <div className='slider_card' >

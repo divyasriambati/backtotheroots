@@ -15,9 +15,9 @@
 .collabPageHeading{
     color: #fff;
     text-align: center;
-    font-size: 60px;
+    font-size: 5rem;
     font-family: Bold;
-    padding: 7%;
+    padding: 30% auto;
 }
 .collabPageSection2{
     width: 80%;
@@ -108,7 +108,7 @@
 }
 @media only screen and (max-width :768px) {
     .collabPageHeading{
-        font-size:40px
+        font-size:2.5rem
     }
     .collagePageSectionPart{
         flex-direction: column;

@@ -55,6 +55,7 @@
     font-weight: 600;
     font-family: "SemiBold";
     border-radius: 10px;
+    text-decoration: none;
 }
 .container_bg{
     background-color:#E5E5E5;
