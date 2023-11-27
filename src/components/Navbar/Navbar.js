@@ -1,11 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import facebook from '../../assets/facebook.png'
-import instagram from '../../assets/instagram.png'
 import logo from '../../assets/logo.jpg'
 import menubar from '../../assets/menu.png'
-import twitter from '../../assets/twitter.png'
-import youtube from '../../assets/youtube.png'
 import './Navbar.css'
 
 function Navbar(props) {
@@ -22,12 +18,17 @@ function Navbar(props) {
       <div className="nav-row-container">
         <div className="nav-row-sub-container">
           <div className="nav-column1">
-            <p><span className="nav-column1-heading">Email :</span> BackToTheRootsProject@gmail.com</p>
+            <p>
+              <span className="nav-column1-heading">Email :</span> BackToTheRootsProject@gmail.com
+            </p>
           </div>
           <div className="nav-column2">
-            <a className=" home-donate-button" target="_blank" href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww" rel="noreferrer">
+            {/* <a className=" home-donate-button" target="_blank" href="https://donate.stripe.com/8wM8yEgQDe4x5mE8ww" rel="noreferrer">
            Donate
-        </a>
+        </a> */}
+            <NavLink className="home-donate-button" to="/Donate" onClick={handleCloseNavbar}>
+              Donate
+            </NavLink>
             {/* <div className="nav-facebook">
               <img src={facebook} alt="Facebook"></img>
             </div>
@@ -97,11 +98,11 @@ function Navbar(props) {
                   Contact
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink className="donate-button" to="/Donate" onClick={handleCloseNavbar}>
                   Donate
                 </NavLink>
-              </li>
+              </li> */}
               {/* <li>
                 <a
                   className="a donate-button"
@@ -115,8 +116,6 @@ function Navbar(props) {
             </ul>
           </div>
         </div>
-        
-        
       </nav>
     </div>
   )
